@@ -1,0 +1,79 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(int argc, char *argv[])
+{
+
+	FILE *in, *out;
+	in = fopen(argv[2],"r");
+	out = fopen(argv[3],"w");
+	char str[24];
+	int i=0;
+	char ch;
+	int threshold = atoi(argv[1]);
+	//printf("Threshold=%d\n", threshold);
+	while(i<8)
+	{	
+		fscanf(in, "%s", str);
+		//printf("%s", str);
+		fprintf(out, "%s", str);
+		i++;
+		ch = getc(in);
+		if(ch == ' ')
+			fprintf(out, "%s", " ");
+		if(ch == '\n')
+			fprintf(out, "%s", "\n");	
+	}
+
+	ch = fgetc(in);
+	while(ch!=EOF)
+	{
+		int val=0;		
+		if (ch == '-')
+		{	
+			ch= fgetc(in);	
+			//printf("Hello\n");		
+			while(ch!='\n')
+			{
+				val = (val*10)+((-1)*(ch-48));
+				ch=fgetc(in);
+				//printf("Hello\n");
+			}
+			if (abs(val) > threshold)
+			{
+			fprintf(out, "%d", val);
+			break;
+			}
+		ch = fgetc(in);	
+		}
+		else 
+		{
+			//printf("Hello\n");			
+			while(ch!='\n')
+			{
+				//printf("Hello\n");
+				val = val*10+(ch-48);
+				ch=fgetc(in);
+			}
+			if (val > threshold)
+			{
+			fprintf(out, "%d", val);
+			break;
+			}
+		ch = fgetc(in);	
+		}		
+/*		if (val > threshold)
+		{
+			printf("%d",val);
+			break;
+		}
+		ch = fgetc(in);		*/
+	}
+
+while(ch!=EOF)
+{
+	fprintf(out, "%c", ch);
+	ch=fgetc(in);
+}
+//printf("\n");
+}

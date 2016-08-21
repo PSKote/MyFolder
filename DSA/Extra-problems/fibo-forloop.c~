@@ -1,0 +1,15 @@
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+int rec(int n);
+int main(int argc, char *argv[])
+{
+	int n;
+	n = atoi(argv[1]);
+	//scanf("%d",&n);
+	printf("%d",rec(n));
+	return 0;
+	
+}

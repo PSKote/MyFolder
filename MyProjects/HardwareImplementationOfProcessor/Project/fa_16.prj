@@ -1,0 +1,5 @@
+verilog work "NAND_gate.v"
+verilog work "or_gate.v"
+verilog work "halfadder.v"
+verilog work "fulladder.v"
+verilog work "fulladder_16bit.v"

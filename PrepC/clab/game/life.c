@@ -1,0 +1,347 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+
+	FILE *gen;
+	gen = fopen(argv[1],"r");
+	char *val = malloc(sizeof(char *) * 38);
+	int row=0, col=0, i=0, j=0;
+	char x;
+	int numberGen = 0;
+	int compGen = atoi (argv[2]);
+	int countx;
+	
+	while(!feof(gen))
+	{
+		fscanf(gen, "%s", val);
+		i++;
+	}
+
+
+	char **data = (char**)malloc (sizeof(char *) * (i-1));
+	for (j=0; j<10; j++)
+		data[j] = (char*)malloc (sizeof(char) * strlen(val));
+
+	char **newData = (char**)malloc (sizeof(char *) * (i-1));
+	for (j=0; j<10; j++)
+		newData[j] = (char*)malloc (sizeof(char) * strlen(val));
+
+	fseek(gen, 0, 0);
+	while(!feof(gen))
+	{
+		fscanf(gen, "%c", &x);
+		if (x == '\n')
+		{
+			row++;
+			col = 0;
+		}
+		else
+		{
+			data[row][col] = x;
+			col++;
+		}
+	}
+
+	fseek(gen, 0, 0);
+	printf("Generation %d\n", numberGen);
+	for(row=0; row<10; row++)
+	{
+		for (col=0; col<38; col++)		
+			printf("%c", data[row][col]);
+		printf("\n");
+	}
+	numberGen+=1;
+	
+	while (numberGen <= compGen)
+	{
+		for(row=0; row<10; row++)
+		{
+			for (col=0; col<38; col++)
+			{			
+				newData[row][col] = data[row][col];
+			}
+		}
+
+		//conditions
+		for(row=0; row<10; row++)
+		{
+			for (col=0; col<38; col++)
+			{
+				countx = 0;
+				//condition1
+				if (data[row][col] != '.')
+				{
+					if ((row == 0) && (col == 0))
+					{	
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row+1][col+1] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+					}
+					else if ((row == 0) && ((col != 0) || (col != 37)))
+					{
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row+1][col+1] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+						if (data[row+1][col-1] != '.')
+							countx++;						
+					}
+					else if ((row == 9) && ((col != 0) || (col != 37)))
+					{
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row-1][col+1] != '.')
+							countx++;
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row-1][col-1] != '.')
+							countx++;
+					}
+					else if ((col == 0) && ((row != 0) || (row != 9)))
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+						if (data[row-1][col+1] != '.')
+							countx++;
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row+1][col+1] != '.')
+							countx++;
+					}
+					else if ((col == 37) && ((row != 0) || (row != 9)))
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+						if (data[row-1][col-1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row+1][col-1] != '.')
+							countx++;
+					}
+					else if ((row == 9) && (col == 37))
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row-1][col-1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+					}
+					else if ((row == 0) && (col == 37))
+					{
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row+1][col-1] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+					}
+					else if ((row == 9) && (col == 0))
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row-1][col+1] != '.')
+							countx++;
+						if (data[row][col+1] != '.')
+							countx++;
+					}
+					else
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row-1][col-1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row-1][col+1] != '.')
+							countx++;
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row+1][col+1] != '.')
+							countx++;
+						if (data[row+1][col-1] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+					}
+					if (countx < 2)
+						newData[row][col] = '.';
+					else if (countx > 3)
+						newData[row][col] = '.';
+					else if ((countx == 2) || (countx == 3))
+						newData[row][col] = data[row][col]- 1;
+					else
+						newData[row][col] = '.';
+				}
+			
+				else
+				{
+					if ((row == 0) && (col == 0))
+					{	
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row+1][col+1] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+					}
+					else if ((row == 0) && ((col != 0) || (col != 37)))
+					{
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row+1][col+1] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+						if (data[row+1][col-1] != '.')
+							countx++;
+					}
+					else if ((row == 9) && ((col != 0) || (col != 37)))
+					{
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row-1][col+1] != '.')
+							countx++;
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row-1][col-1] != '.')
+							countx++;
+					}
+					else if ((col == 0) && ((row != 0) || (row != 9)))
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+						if (data[row-1][col+1] != '.')
+							countx++;
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row+1][col+1] != '.')
+							countx++;
+					}
+					else if ((col == 37) && ((row != 0) || (row != 9)))
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+						if (data[row-1][col-1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row+1][col-1] != '.')
+							countx++;
+					}
+					else if ((row == 9) && (col == 37))
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row-1][col-1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+					}
+					else if ((row == 0) && (col == 37))
+					{
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row+1][col-1] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+					}
+					else if ((row == 9) && (col == 0))
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row-1][col+1] != '.')
+							countx++;
+						if (data[row][col+1] != '.')
+							countx++;
+					}
+					else
+					{
+						if (data[row-1][col] != '.')
+							countx++;
+						if (data[row-1][col-1] != '.')
+							countx++;
+						if (data[row][col-1] != '.')
+							countx++;
+						if (data[row-1][col+1] != '.')
+							countx++;
+						if (data[row][col+1] != '.')
+							countx++;
+						if (data[row+1][col+1] != '.')
+							countx++;
+						if (data[row+1][col-1] != '.')
+							countx++;
+						if (data[row+1][col] != '.')
+							countx++;
+					}
+					//printf("row: %d\n", row);
+					//printf("col: %d\n", col); 	
+					if (countx == 3)
+						newData[row][col] = 'x';
+					else
+						newData[row][col] = data[row][col]; 					
+				}
+			}
+		}
+
+		for(row=0; row<10; row++)
+			for (col=0; col<38; col++)			
+				data[row][col] = newData[row][col];
+
+		printf("Generation %d\n", numberGen);
+		//print the generations
+
+		sleep(1);
+		system ("clear");
+
+		for(row=0; row<10; row++)
+		{
+			for (col=0; col<38; col++)		
+				printf("%c", data[row][col]);
+			printf("\n");
+		}
+	numberGen++;
+	}
+	
+
+
+	for(j=0; j<(i-1); j++)
+		free(data[j]);
+	free(data);
+
+	for(j=0; j<(i-1); j++)
+		free(newData[j]);
+	free(data);
+
+	free(val);
+
+	fclose(gen);
+
+}
+

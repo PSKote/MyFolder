@@ -1,0 +1,34 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user pc/Project/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user pc/Project/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux16_81.v" in library work
+ERROR:HDLCompilers:26 - "mux16_81.v" line 29 unexpected token: 'endmodule'
+ERROR:HDLCompilers:26 - "mux16_81.v" line 30 expecting ')', found 'EOF'
+ERROR:HDLCompilers:26 - "mux16_81.v" line 30 expecting ';', found 'EOF'
+Module <mux16_81> compiled
+ERROR:HDLCompilers:26 - "mux16_81.v" line 30 expecting 'endmodule', found 'EOF'
+Analysis of file <".prj"> failed.
+--> 
+
+Total memory usage is 216336 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

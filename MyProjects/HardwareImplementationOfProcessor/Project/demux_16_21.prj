@@ -1,0 +1,3 @@
+verilog work "NAND_gate.v"
+verilog work "demux1x2.v"
+verilog work "demux1x2_16bit.v"

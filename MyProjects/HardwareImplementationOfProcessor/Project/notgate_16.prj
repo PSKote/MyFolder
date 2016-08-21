@@ -1,0 +1,3 @@
+verilog work "NAND_gate.v"
+verilog work "NOT_gate.v"
+verilog work "notgate_16bit.v"

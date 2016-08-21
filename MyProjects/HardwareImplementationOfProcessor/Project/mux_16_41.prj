@@ -1,0 +1,4 @@
+verilog work "NAND_gate.v"
+verilog work "mux2x1.v"
+verilog work "mux4x1.v"
+verilog work "mux4x1_16bit.v"

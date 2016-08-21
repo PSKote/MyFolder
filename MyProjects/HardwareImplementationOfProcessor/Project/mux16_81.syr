@@ -1,0 +1,349 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Reading design: mux16_81.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mux16_81.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mux16_81"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-vq100
+
+---- Source Options
+Top Module Name                    : mux16_81
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "NAND_gate.v" in library work
+Compiling verilog file "mux2x1.v" in library work
+Module <NAND_gate> compiled
+Compiling verilog file "mux4x1.v" in library work
+Module <mux21> compiled
+Compiling verilog file "mux4x1_16bit.v" in library work
+Module <mux41> compiled
+Compiling verilog file "mux16_21.v" in library work
+Module <mux_16_41> compiled
+Compiling verilog file "mux16_81.v" in library work
+Module <mux16_21> compiled
+Module <mux16_81> compiled
+No errors in compilation
+Analysis of file <"mux16_81.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <mux16_81> in library <work>.
+
+Analyzing hierarchy for module <mux_16_41> in library <work>.
+
+Analyzing hierarchy for module <mux16_21> in library <work>.
+
+Analyzing hierarchy for module <mux41> in library <work>.
+
+Analyzing hierarchy for module <mux21> in library <work>.
+
+Analyzing hierarchy for module <NAND_gate> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <mux16_81>.
+Module <mux16_81> is correct for synthesis.
+ 
+Analyzing module <mux_16_41> in library <work>.
+Module <mux_16_41> is correct for synthesis.
+ 
+Analyzing module <mux41> in library <work>.
+Module <mux41> is correct for synthesis.
+ 
+Analyzing module <mux21> in library <work>.
+Module <mux21> is correct for synthesis.
+ 
+Analyzing module <NAND_gate> in library <work>.
+Module <NAND_gate> is correct for synthesis.
+ 
+Analyzing module <mux16_21> in library <work>.
+Module <mux16_21> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <NAND_gate>.
+    Related source file is "NAND_gate.v".
+Unit <NAND_gate> synthesized.
+
+
+Synthesizing Unit <mux21>.
+    Related source file is "mux2x1.v".
+Unit <mux21> synthesized.
+
+
+Synthesizing Unit <mux16_21>.
+    Related source file is "mux16_21.v".
+Unit <mux16_21> synthesized.
+
+
+Synthesizing Unit <mux41>.
+    Related source file is "mux4x1.v".
+Unit <mux41> synthesized.
+
+
+Synthesizing Unit <mux_16_41>.
+    Related source file is "mux4x1_16bit.v".
+Unit <mux_16_41> synthesized.
+
+
+Synthesizing Unit <mux16_81>.
+    Related source file is "mux16_81.v".
+Unit <mux16_81> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <mux16_81> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mux16_81, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : mux16_81.ngr
+Top Level Output File Name         : mux16_81
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 147
+
+Cell Usage :
+# BELS                             : 96
+#      LUT3                        : 32
+#      LUT4                        : 48
+#      MUXF5                       : 16
+# IO Buffers                       : 147
+#      IBUF                        : 131
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-5 
+
+ Number of Slices:                       44  out of    960     4%  
+ Number of 4 input LUTs:                 80  out of   1920     4%  
+ Number of IOs:                         147
+ Number of bonded IOBs:                 147  out of     66   222% (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 7.754ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 256 / 16
+-------------------------------------------------------------------------
+Delay:               7.754ns (Levels of Logic = 5)
+  Source:            s<2> (PAD)
+  Destination:       out<15> (PAD)
+
+  Data Path: s<2> to out<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   1.106   1.233  s_2_IBUF (s_2_IBUF)
+     LUT3:I0->O            1   0.612   0.000  m3/mx9/m4/y84_F (N8)
+     MUXF5:I0->O           1   0.278   0.387  m3/mx9/m4/y84 (m3/mx9/m4/y84)
+     LUT4:I2->O            1   0.612   0.357  m3/mx9/m4/y112 (out_8_OBUF)
+     OBUF:I->O                 3.169          out_8_OBUF (out<8>)
+    ----------------------------------------
+    Total                      7.754ns (5.777ns logic, 1.977ns route)
+                                       (74.5% logic, 25.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.62 secs
+ 
+--> 
+
+Total memory usage is 250272 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

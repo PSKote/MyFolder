@@ -1,0 +1,567 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: newcpu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "newcpu.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "newcpu"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-vq100
+
+---- Source Options
+Top Module Name                    : newcpu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "NAND_gate.v" in library work
+Compiling verilog file "or_gate.v" in library work
+Module <NAND_gate> compiled
+Compiling verilog file "halfadder.v" in library work
+Module <or_gate> compiled
+Compiling verilog file "NOT_gate.v" in library work
+Module <halfadder> compiled
+Compiling verilog file "mux2x1.v" in library work
+Module <NOT_gate> compiled
+Compiling verilog file "fulladder.v" in library work
+Module <mux21> compiled
+Compiling verilog file "AND_gate.v" in library work
+Module <fulladder> compiled
+Compiling verilog file "or8_gate.v" in library work
+Module <and_gate> compiled
+Compiling verilog file "notgate_16bit.v" in library work
+Module <or8_gate> compiled
+Compiling verilog file "mux2x1_16bit.v" in library work
+Module <notgate_16> compiled
+Compiling verilog file "fulladder_16bit.v" in library work
+Module <mux_16_21> compiled
+Compiling verilog file "andgate_16bit.v" in library work
+Module <fa_16> compiled
+Compiling verilog file "newcpu.v" in library work
+Module <and_16> compiled
+Module <newcpu> compiled
+No errors in compilation
+Analysis of file <"newcpu.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <newcpu> in library <work>.
+
+Analyzing hierarchy for module <mux_16_21> in library <work>.
+
+Analyzing hierarchy for module <notgate_16> in library <work>.
+
+Analyzing hierarchy for module <and_16> in library <work>.
+
+Analyzing hierarchy for module <fa_16> in library <work>.
+
+Analyzing hierarchy for module <mux21> in library <work>.
+
+Analyzing hierarchy for module <or8_gate> in library <work>.
+
+Analyzing hierarchy for module <or_gate> in library <work>.
+
+Analyzing hierarchy for module <NAND_gate> in library <work>.
+
+Analyzing hierarchy for module <NOT_gate> in library <work>.
+
+Analyzing hierarchy for module <and_gate> in library <work>.
+
+Analyzing hierarchy for module <fulladder> in library <work>.
+
+Analyzing hierarchy for module <NAND_gate> in library <work>.
+
+Analyzing hierarchy for module <halfadder> in library <work>.
+
+Analyzing hierarchy for module <or_gate> in library <work>.
+
+Analyzing hierarchy for module <NAND_gate> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <newcpu>.
+Module <newcpu> is correct for synthesis.
+ 
+Analyzing module <mux_16_21> in library <work>.
+Module <mux_16_21> is correct for synthesis.
+ 
+Analyzing module <notgate_16> in library <work>.
+Module <notgate_16> is correct for synthesis.
+ 
+Analyzing module <NOT_gate> in library <work>.
+Module <NOT_gate> is correct for synthesis.
+ 
+Analyzing module <and_16> in library <work>.
+Module <and_16> is correct for synthesis.
+ 
+Analyzing module <and_gate> in library <work>.
+Module <and_gate> is correct for synthesis.
+ 
+Analyzing module <fa_16> in library <work>.
+Module <fa_16> is correct for synthesis.
+ 
+Analyzing module <fulladder> in library <work>.
+Module <fulladder> is correct for synthesis.
+ 
+Analyzing module <halfadder> in library <work>.
+Module <halfadder> is correct for synthesis.
+ 
+Analyzing module <mux21> in library <work>.
+Module <mux21> is correct for synthesis.
+ 
+Analyzing module <or8_gate> in library <work>.
+Module <or8_gate> is correct for synthesis.
+ 
+Analyzing module <or_gate> in library <work>.
+Module <or_gate> is correct for synthesis.
+ 
+Analyzing module <NAND_gate> in library <work>.
+Module <NAND_gate> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <NAND_gate>.
+    Related source file is "NAND_gate.v".
+Unit <NAND_gate> synthesized.
+
+
+Synthesizing Unit <mux21>.
+    Related source file is "mux2x1.v".
+Unit <mux21> synthesized.
+
+
+Synthesizing Unit <or_gate>.
+    Related source file is "or_gate.v".
+Unit <or_gate> synthesized.
+
+
+Synthesizing Unit <NOT_gate>.
+    Related source file is "NOT_gate.v".
+Unit <NOT_gate> synthesized.
+
+
+Synthesizing Unit <and_gate>.
+    Related source file is "AND_gate.v".
+Unit <and_gate> synthesized.
+
+
+Synthesizing Unit <halfadder>.
+    Related source file is "halfadder.v".
+Unit <halfadder> synthesized.
+
+
+Synthesizing Unit <mux_16_21>.
+    Related source file is "mux2x1_16bit.v".
+Unit <mux_16_21> synthesized.
+
+
+Synthesizing Unit <notgate_16>.
+    Related source file is "notgate_16bit.v".
+Unit <notgate_16> synthesized.
+
+
+Synthesizing Unit <and_16>.
+    Related source file is "andgate_16bit.v".
+Unit <and_16> synthesized.
+
+
+Synthesizing Unit <or8_gate>.
+    Related source file is "or8_gate.v".
+Unit <or8_gate> synthesized.
+
+
+Synthesizing Unit <fulladder>.
+    Related source file is "fulladder.v".
+Unit <fulladder> synthesized.
+
+
+Synthesizing Unit <fa_16>.
+    Related source file is "fulladder_16bit.v".
+Unit <fa_16> synthesized.
+
+
+Synthesizing Unit <newcpu>.
+    Related source file is "newcpu.v".
+WARNING:Xst:646 - Signal <s<14:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <newcpu> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <f3> is unconnected in block <f16>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu1> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu2> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu3> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu4> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu5> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu6> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu7> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu8> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu9> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu10> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu11> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu12> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu13> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu14> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <mu15> is unconnected in block <m7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu9>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu10>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu11>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu12>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu13>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu14>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu15>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu16>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu9>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu10>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu11>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu12>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu13>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu14>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu15>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mu16>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o2> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <m8>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <newcpu>: instances <m6>, <m9> of unit <mux_16_21> are equivalent, second instance is removed
+
+Optimizing unit <newcpu> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block newcpu, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : newcpu.ngr
+Top Level Output File Name         : newcpu
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 56
+
+Cell Usage :
+# BELS                             : 100
+#      LUT2                        : 3
+#      LUT3                        : 45
+#      LUT4                        : 37
+#      MUXF5                       : 15
+# IO Buffers                       : 56
+#      IBUF                        : 38
+#      OBUF                        : 18
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-5 
+
+ Number of Slices:                       47  out of    960     4%  
+ Number of 4 input LUTs:                 85  out of   1920     4%  
+ Number of IOs:                          56
+ Number of bonded IOBs:                  56  out of     66    84%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 25.671ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3200 / 18
+-------------------------------------------------------------------------
+Delay:               25.671ns (Levels of Logic = 21)
+  Source:            c<2> (PAD)
+  Destination:       zr (PAD)
+
+  Data Path: c<2> to zr
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.106   1.031  c_2_IBUF (c_2_IBUF)
+     LUT3:I0->O            3   0.612   0.454  m4/mu1/m4/y_and00001 (m4/mu1/m4/y_and0000)
+     LUT4:I3->O            2   0.612   0.410  m5/mu1/m4/y_and000011 (N15)
+     LUT3:I2->O            3   0.612   0.481  f1/f2/f3/o3/y_and00001 (f1/f2/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f3/f3/o3/y_and00001 (f1/f3/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f4/f3/o3/y_and00001 (f1/f4/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f5/f3/o3/y_and00001 (f1/f5/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f6/f3/o3/y_and00001 (f1/f6/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f7/f3/o3/y_and00001 (f1/f7/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f8/f3/o3/y_and00001 (f1/f8/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f9/f3/o3/y_and00001 (f1/f9/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f10/f3/o3/y_and00001 (f1/f10/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f11/f3/o3/y_and00001 (f1/f11/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f12/f3/o3/y_and00001 (f1/f12/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f13/f3/o3/y_and00001 (f1/f13/f3/o3/y_and0000)
+     LUT3:I2->O            3   0.612   0.481  f1/f14/f3/o3/y_and00001 (f1/f14/f3/o3/y_and0000)
+     LUT3:I2->O            1   0.612   0.426  f1/f15/f3/o3/y_and00001 (f1/f15/f3/o3/y_and0000)
+     LUT4:I1->O            2   0.612   0.449  out<15>11 (N01)
+     LUT2:I1->O            2   0.612   0.383  out<15>2 (out_15_OBUF)
+     LUT4:I3->O            1   0.612   0.357  ng1/y219 (zr_OBUF)
+     OBUF:I->O                 3.169          zr_OBUF (zr)
+    ----------------------------------------
+    Total                     25.671ns (15.903ns logic, 9.768ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.33 secs
+ 
+--> 
+
+Total memory usage is 265624 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   58 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

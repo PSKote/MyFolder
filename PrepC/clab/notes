@@ -1,0 +1,63 @@
+COMMAND LINE ARGUMENTS:
+
+'ls' is a system command.
+ls -l : gives the details of files in the directory (like, when created, meomory...).
+OS updates argc and argv when we run command line (e.g. ls -l, when -l is executed argc and argv is updated).
+ptr[] is equal to *ptr.
+char *argv[] is array of array of character or array of strings.
+argc is count of number of arguments (e.g. ls -l, argc = 2 ; ./test prepc electrrnics, argc =3)
+argv will have argument values (e.g. ./test prepc electronics, argv={"./test", "prepc", "eletronics"}.
+atof - converts string to floating point number.
+atoi - converts string to integer.
+
+malloc:
+char *data;
+data = malloc (10);
+printf("%c", *data);
+malloc - memory allocation, here it gives 10 memory location.
+
+free(data);
+here it deallocates the allocated memory.
+
+2D- Array malloc of 3 rows and 4 columns
+char ** data;
+data = malloc(sizeof(char *) * 3);
+for (i=0; i<3; i++)
+data[i] = malloc (sizeof(char) * 4);
+
+function pointer:
+int * add(int x, int y); - this is function to return pointer to interger data type.
+add = &original;
+int (* add)(int x, int y); - function pointer which returns interger data type.
+int * (* add) (int x, int y) - function pointer that returns pointer to integer data type.
+eg1.,
+int main()
+{
+int (*fptr)(int x, int y);
+fptr = &add;
+fptr(5,3);
+}
+int add(int x, int y)
+{
+return x+y;
+}
+eg2.,
+test.c
+int add(int x, inty)
+{
+return x+y;
+}
+int main()
+{
+int (*fptr)(int x, int y)
+fptr = &add;
+wrapper(fptr, 5, 3);
+util.c
+int wrapper(int(*ptr)(int , int), int x, int y)
+{
+return ptr(x,y);
+}
+
+game of life
+sleep(arg in sec.);
+system ("clear");

@@ -1,0 +1,45 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user pc/Project/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user pc/Project/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "NAND_gate.v" in library work
+Compiling verilog file "or_gate.v" in library work
+Module <NAND_gate> compiled
+Compiling verilog file "halfadder.v" in library work
+Module <or_gate> compiled
+Compiling verilog file "fulladder.v" in library work
+Module <halfadder> compiled
+Compiling verilog file "fulladder_16bit.v" in library work
+Module <fulladder> compiled
+Module <fa_16> compiled
+No errors in compilation
+Analysis of file <"fa_16.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> 
+
+Total memory usage is 216144 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

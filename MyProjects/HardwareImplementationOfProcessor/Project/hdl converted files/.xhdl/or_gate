@@ -1,0 +1,38 @@
+[%General]
+%3Csource%3E=
+%3Cfilename%3E=E:/Project/hdl converted files/or_gate.vhd
+%3Cclass%3E=108
+%3Cbasename%3E=or_gate
+%3Cpackage%3E=false
+
+[Data]
+%3CgenericOrder%3E=@Invalid()
+%3CportOrder%3E=out, a, b
+%3Ccompdecl%3E="COMPONENT or_gate IS\n<indent>\nPORT (\n<indent>\nout_xhdl1<tab:1> : OUT STD_LOGIC;\na<tab:1> : IN STD_LOGIC;\nb<tab:1> : IN STD_LOGIC\n<outdent>\n);\n<outdent>\nEND COMPONENT;\n\n"
+a\category=114
+a\port=1
+a\alias=a
+b\category=114
+b\port=1
+b\alias=b
+o1\category=106
+o1\port=0
+o1\alias=o1
+o2\category=106
+o2\port=0
+o2\alias=o2
+o3\category=106
+o3\port=0
+o3\alias=o3
+or_gate\category=108
+or_gate\port=0
+or_gate\alias=or_gate
+out\category=114
+out\port=2
+out\alias=out_xhdl1
+w1\category=114
+w1\port=0
+w1\alias=w1
+w2\category=114
+w2\port=0
+w2\alias=w2

@@ -1,0 +1,221 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+//Option
+int SelectOption()
+{
+	int option;
+	printf("Welcome to the C Movie Database!\n");
+	printf("Main menu:\n");
+	printf("1: display all movies\n");
+	printf("2: display shortest movie\n");
+	printf("3: display longest movie\n");
+	printf("4: display older movies\n");
+	printf("5: display newer movies\n");
+	printf("6: display movies in the region specified\n");
+	printf("7: add movie\n");
+	printf("0: quit the program\n");
+	printf("Enter option number:");
+	scanf("%d", &option);	
+	return option;
+}
+
+//All Movie
+void DisplayAllMovie(FILE *data)
+{
+	char ch;
+	ch = getc(data);
+	while (ch!=EOF)
+	{
+		//printf("Hello");
+		printf("%c", ch);
+		ch = getc(data);
+	}
+	fclose(data);
+}
+
+//Display Short Movie
+void DisplayShortMovie(FILE *data)
+{
+	int duration[20], year[20];
+	char movieName[20][30], actor[20][20];	
+	int i=0;
+	int len[10]={0};
+	while(!feof(data))
+	{
+		fscanf(data, "%s", movieName[i]);
+		fscanf(data, "%s", actor[i]);
+		fscanf(data, "%d", &duration[i]);
+		fscanf(data, "%d", &year[i]);
+		i++;
+	}
+
+	int j = i-1;
+
+	/*for (i=0; i<j; i++)
+	{
+		len[i]=duration[i];
+		//printf("%d", len[i]);
+	}*/
+
+	int k=0;
+	for (i=1; i<j; i++)
+		if (duration[i] < duration[k])
+			k=i;
+
+	printf("%s %s %d %d\n", movieName[k], actor[k], duration[k], year[k]);
+	fclose(data);
+}
+
+//Display Long Movie
+void DisplayLongMovie(FILE *data)
+{
+	int duration[20], year[20];
+	char movieName[20][30], actor[20][20];	
+	int i=0;
+	int len[10]={0};
+	while(!feof(data))
+	{
+		fscanf(data, "%s", movieName[i]);
+		fscanf(data, "%s", actor[i]);
+		fscanf(data, "%d", &duration[i]);
+		fscanf(data, "%d", &year[i]);
+		i++;
+	}
+
+	int j = i-1;
+
+	/*for (i=0; i<j; i++)
+	{
+		len[i]=strlen(movieName[i]);
+	}*/
+
+	int k=0;
+	for (i=1; i<j; i++)
+		if (duration[i] > duration[k])
+			k=i;
+
+	printf("%s %s %d %d", movieName[k], actor[k], duration[k], year[k]);
+	fclose(data);
+}
+
+//Older Movies
+void DisplayOlderMovie(FILE *data)
+{
+	int duration[20], year[20];
+	char movieName[20][30], actor[20][20];	
+	int i=0;
+	int checkOYear;
+	while(!feof(data))
+	{
+		fscanf(data, "%s", movieName[i]);
+		fscanf(data, "%s", actor[i]);
+		fscanf(data, "%d", &duration[i]);
+		fscanf(data, "%d", &year[i]);
+		i++;
+	}
+
+	int j = i-1;
+	printf("Display movies older than what year?");
+	scanf("%d", &checkOYear);
+	for (i=0; i<j; i++)
+		if (year[i] < checkOYear)
+				printf("%s %s %d %d\n", movieName[i], actor[i], duration[i], year[i]);	
+	
+	fclose(data);
+}
+
+//Newer Movies
+void DisplayNewMovie(FILE *data)
+{
+	int duration[20], year[20];
+	char movieName[20][30], actor[20][20];	
+	int i=0;
+	int checkNYear;
+	while(!feof(data))
+	{
+		fscanf(data, "%s", movieName[i]);
+		fscanf(data, "%s", actor[i]);
+		fscanf(data, "%d", &duration[i]);
+		fscanf(data, "%d", &year[i]);
+		i++;
+	}
+
+	int j = i;
+	printf("Display movies newer than what year?");
+	scanf("%d", &checkNYear);
+	for (i=0; i<j; i++)
+		if (year[i] > checkNYear)
+				printf("%s %s %d %d\n", movieName[i], actor[i], duration[i], year[i]);	
+	
+	fclose(data);
+}
+
+//Region Movie
+void DisplayRegionMovie(FILE *data)
+{
+	int duration[20], year[20];
+	char movieName[20][30], actor[20][20];	
+	int i=0;
+	int checkBYear1, checkBYear2;
+	while(!feof(data))
+	{
+		fscanf(data, "%s", movieName[i]);
+		fscanf(data, "%s", actor[i]);
+		fscanf(data, "%d", &duration[i]);
+		fscanf(data, "%d", &year[i]);
+		i++;
+	}
+
+	int j = i;
+	printf("Display movies newer than what year?");
+	scanf("%d %d", &checkBYear1, &checkBYear2);
+	for (i=0; i<j; i++)
+		if ((year[i] >= checkBYear1) && (year[i] <= checkBYear2))
+				printf("%s %s %d %d\n", movieName[i], actor[i], duration[i], year[i]);	
+	
+	fclose(data);
+}
+
+//Add Movie
+void DisplayAddMovie(FILE *data)
+{
+	int duration[20], year[20];
+	char movieName[20][30], actor[20][20];	
+	int i=0;
+	while(!feof(data))
+	{
+		fscanf(data, "%s", movieName[i]);
+		fscanf(data, "%s", actor[i]);
+		fscanf(data, "%d", &duration[i]);
+		fscanf(data, "%d", &year[i]);
+		i++;
+	}
+
+	printf("Enter Movie Name:");	
+	scanf("%s", movieName[i]);
+	printf("Enter Actor Name:");
+	scanf("%s", actor[i]);
+	printf("Enter Duration:");
+	scanf("%d", &duration[i]);
+	printf("Enter Year:");
+	scanf("%d", &year[i]);
+	
+	fprintf(data, "%s", movieName[i]);
+	fprintf(data, "%c", ' ');
+	fprintf(data, "%s", actor[i]);
+	fprintf(data, "%c", ' ');
+	fprintf(data, "%d", duration[i]);
+	fprintf(data, "%c", ' ');
+	fprintf(data, "%d", year[i]);	
+	fprintf(data, "%s", "\n");
+	fclose(data);
+}
+
+//Quit
+void quit(FILE *data)
+{
+	exit(0);
+	fclose(data);
+}

@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+cpu instance_name (
+    .out(out), 
+    .address(address), 
+    .pc(pc), 
+    .write(write), 
+    .istr(istr), 
+    .reset(reset), 
+    .clk(clk), 
+    .in(in)
+    );
+
+

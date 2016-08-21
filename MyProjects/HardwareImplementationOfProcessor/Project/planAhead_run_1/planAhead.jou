@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Sun Nov 08 09:52:53 2015
+# Process ID: 1992
+# Log file: C:/Users/user pc/Project/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/user pc/Project/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/user pc/Project/pa.fromNetlist.tcl}
+report_drc -name drc_1
+report_drc -name drc_2

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Project/pc.xst" -ofn "E:/Project/pc.syr" 

@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+
+	int i, j, c, r, r1, r2;
+	float A[3][3], B[3], f;
+
+	for (i=0; i<3; i++)
+		for (j=0; j<4; j++)
+			scanf("%f", &A[i][j]);
+
+	for (r1=0; r1<2; r1++)
+		for (r2=r1+1; r2<3; r2++)
+		{
+			f=A[r2][r1]/A[r1][r1];
+			for (c=r1; c<4; c++)
+				A[r2][c]-=f*A[r1][c];
+		} 
+
+	for (r=2; r>=0; r--)
+	{
+		for (c=r+1; c<3; c++)
+			A[r][3]-=B[c] * A[r][c];
+		B[r] = A[r][3]/ A[r][r];
+	}
+
+	for (i=0; i<3; i++)
+		printf("B[%d] = %f\n", i, B[i]);
+
+}

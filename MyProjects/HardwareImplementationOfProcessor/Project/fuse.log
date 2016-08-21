@@ -1,0 +1,73 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/Project/computer_isim_beh.exe -prj E:/Project/computer_beh.prj work.computer work.glbl 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Project/NAND_gate.v" into library work
+Analyzing Verilog file "E:/Project/NOT_gate.v" into library work
+Analyzing Verilog file "E:/Project/mux2x1.v" into library work
+Analyzing Verilog file "E:/Project/or_gate.v" into library work
+Analyzing Verilog file "E:/Project/mux4x1.v" into library work
+Analyzing Verilog file "E:/Project/halfadder.v" into library work
+Analyzing Verilog file "E:/Project/dflipflop.v" into library work
+Analyzing Verilog file "E:/Project/demux1x2.v" into library work
+Analyzing Verilog file "E:/Project/register_1bit.v" into library work
+Analyzing Verilog file "E:/Project/mux4x1_16bit.v" into library work
+Analyzing Verilog file "E:/Project/mux16_21.v" into library work
+Analyzing Verilog file "E:/Project/fulladder.v" into library work
+Analyzing Verilog file "E:/Project/demux.v" into library work
+Analyzing Verilog file "E:/Project/AND_gate.v" into library work
+Analyzing Verilog file "E:/Project/register_16bit.v" into library work
+Analyzing Verilog file "E:/Project/or8_gate.v" into library work
+Analyzing Verilog file "E:/Project/notgate_16bit.v" into library work
+Analyzing Verilog file "E:/Project/mux2x1_16bit.v" into library work
+Analyzing Verilog file "E:/Project/mux16_81.v" into library work
+Analyzing Verilog file "E:/Project/fulladder_16bit.v" into library work
+Analyzing Verilog file "E:/Project/demux18.v" into library work
+Analyzing Verilog file "E:/Project/andgate_16bit.v" into library work
+Analyzing Verilog file "E:/Project/ram8.v" into library work
+Analyzing Verilog file "E:/Project/programcounter.v" into library work
+Analyzing Verilog file "E:/Project/newcpu.v" into library work
+Analyzing Verilog file "E:/Project/rom_add.v" into library work
+Analyzing Verilog file "E:/Project/ram64.v" into library work
+Analyzing Verilog file "E:/Project/partofcpu.v" into library work
+Analyzing Verilog file "E:/Project/computer.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module NAND_gate
+Compiling module mux21
+Compiling module mux16_21
+Compiling module NOT_gate
+Compiling module or_gate
+Compiling module dff
+Compiling module reg_1bit
+Compiling module register_16
+Compiling module and_gate
+Compiling module mux_16_21
+Compiling module notgate_16
+Compiling module and_16
+Compiling module halfadder
+Compiling module fulladder
+Compiling module fa_16
+Compiling module or8_gate
+Compiling module newalu
+Compiling module pc
+Compiling module cpu
+Compiling module demux_12
+Compiling module demux_14
+Compiling module demux_18
+Compiling module mux41
+Compiling module mux_16_41
+Compiling module mux16_81
+Compiling module ram8
+Compiling module ram64
+Compiling module rom_add
+Compiling module computer
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 23 sub-compilation(s) to finish...
+Compiled 30 Verilog Units
+Built simulation executable E:/Project/computer_isim_beh.exe
+Fuse Memory Usage: 26864 KB
+Fuse CPU Usage: 687 ms

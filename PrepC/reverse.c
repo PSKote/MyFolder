@@ -1,0 +1,26 @@
+//Reverse the entire file that has to be read
+
+#include <stdio.h>
+
+int main()
+{
+
+int count=0;
+char c;
+FILE *fp;
+fp = fopen ("/home/prajwal/Desktop/CProg/reversealpha","r");
+
+while ((c=getc(fp))!=EOF)
+	count++;
+
+fseek(fp,-1,2);
+while(count)
+{
+	c=getc(fp);
+	printf("%c", c);
+	fseek (fp,-2,1);
+	count--;
+}
+printf("\n");
+fclose(fp);
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(int argc, char *argv[])
+{
+	int n;
+	n = atoi(argv[0]);
+	printf("%d",rec(n));
+	
+}
+
+int rec (int n){
+		if (n<2) 
+			return (n);
+		else
+			return((rec(n-1)+rec(n-2))%100);
+		}

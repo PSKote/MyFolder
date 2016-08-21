@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/user pc/Project/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/user pc/Project/xst"
+elaborate
+-ifn demux_16_14.prj
+-ifmt mixed

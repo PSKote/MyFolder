@@ -1,0 +1,777 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> Reading design: pc.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pc.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pc"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-vq100
+
+---- Source Options
+Top Module Name                    : pc
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "NAND_gate.v" in library work
+Compiling verilog file "NOT_gate.v" in library work
+Module <NAND_gate> compiled
+Compiling verilog file "or_gate.v" in library work
+Module <NOT_gate> compiled
+Compiling verilog file "mux2x1.v" in library work
+Module <or_gate> compiled
+Compiling verilog file "halfadder.v" in library work
+Module <mux21> compiled
+Compiling verilog file "dflipflop.v" in library work
+Module <halfadder> compiled
+Compiling verilog file "register_1bit.v" in library work
+Module <dff> compiled
+Compiling verilog file "fulladder.v" in library work
+Module <reg_1bit> compiled
+Compiling verilog file "register_16bit.v" in library work
+Module <fulladder> compiled
+Compiling verilog file "mux16_21.v" in library work
+Module <register_16> compiled
+Compiling verilog file "fulladder_16bit.v" in library work
+Module <mux16_21> compiled
+Compiling verilog file "AND_gate.v" in library work
+Module <fa_16> compiled
+Compiling verilog file "programcounter.v" in library work
+Module <and_gate> compiled
+Module <pc> compiled
+No errors in compilation
+Analysis of file <"pc.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <pc> in library <work>.
+
+Analyzing hierarchy for module <mux16_21> in library <work>.
+
+Analyzing hierarchy for module <NOT_gate> in library <work>.
+
+Analyzing hierarchy for module <and_gate> in library <work>.
+
+Analyzing hierarchy for module <fa_16> in library <work>.
+
+Analyzing hierarchy for module <register_16> in library <work>.
+
+Analyzing hierarchy for module <mux21> in library <work>.
+
+Analyzing hierarchy for module <NAND_gate> in library <work>.
+
+Analyzing hierarchy for module <fulladder> in library <work>.
+
+Analyzing hierarchy for module <reg_1bit> in library <work>.
+
+Analyzing hierarchy for module <halfadder> in library <work>.
+
+Analyzing hierarchy for module <or_gate> in library <work>.
+
+Analyzing hierarchy for module <mux21> in library <work>.
+
+Analyzing hierarchy for module <dff> in library <work>.
+
+Analyzing hierarchy for module <NAND_gate> in library <work>.
+
+Analyzing hierarchy for module <NOT_gate> in library <work>.
+
+Analyzing hierarchy for module <NAND_gate> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pc>.
+Module <pc> is correct for synthesis.
+ 
+Analyzing module <mux16_21> in library <work>.
+Module <mux16_21> is correct for synthesis.
+ 
+Analyzing module <mux21> in library <work>.
+Module <mux21> is correct for synthesis.
+ 
+Analyzing module <NAND_gate> in library <work>.
+Module <NAND_gate> is correct for synthesis.
+ 
+Analyzing module <NOT_gate> in library <work>.
+Module <NOT_gate> is correct for synthesis.
+ 
+Analyzing module <and_gate> in library <work>.
+Module <and_gate> is correct for synthesis.
+ 
+Analyzing module <fa_16> in library <work>.
+Module <fa_16> is correct for synthesis.
+ 
+Analyzing module <fulladder> in library <work>.
+Module <fulladder> is correct for synthesis.
+ 
+Analyzing module <halfadder> in library <work>.
+Module <halfadder> is correct for synthesis.
+ 
+Analyzing module <or_gate> in library <work>.
+Module <or_gate> is correct for synthesis.
+ 
+Analyzing module <register_16> in library <work>.
+Module <register_16> is correct for synthesis.
+ 
+Analyzing module <reg_1bit> in library <work>.
+Module <reg_1bit> is correct for synthesis.
+ 
+Analyzing module <dff> in library <work>.
+Module <dff> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <NAND_gate>.
+    Related source file is "NAND_gate.v".
+Unit <NAND_gate> synthesized.
+
+
+Synthesizing Unit <NOT_gate>.
+    Related source file is "NOT_gate.v".
+Unit <NOT_gate> synthesized.
+
+
+Synthesizing Unit <and_gate>.
+    Related source file is "AND_gate.v".
+Unit <and_gate> synthesized.
+
+
+Synthesizing Unit <mux21>.
+    Related source file is "mux2x1.v".
+Unit <mux21> synthesized.
+
+
+Synthesizing Unit <halfadder>.
+    Related source file is "halfadder.v".
+Unit <halfadder> synthesized.
+
+
+Synthesizing Unit <or_gate>.
+    Related source file is "or_gate.v".
+Unit <or_gate> synthesized.
+
+
+Synthesizing Unit <mux16_21>.
+    Related source file is "mux16_21.v".
+Unit <mux16_21> synthesized.
+
+
+Synthesizing Unit <fulladder>.
+    Related source file is "fulladder.v".
+Unit <fulladder> synthesized.
+
+
+Synthesizing Unit <dff>.
+    Related source file is "dflipflop.v".
+Unit <dff> synthesized.
+
+
+Synthesizing Unit <fa_16>.
+    Related source file is "fulladder_16bit.v".
+Unit <fa_16> synthesized.
+
+
+Synthesizing Unit <reg_1bit>.
+    Related source file is "register_1bit.v".
+Unit <reg_1bit> synthesized.
+
+
+Synthesizing Unit <register_16>.
+    Related source file is "register_16bit.v".
+Unit <register_16> synthesized.
+
+
+Synthesizing Unit <pc>.
+    Related source file is "programcounter.v".
+WARNING:Xst:1780 - Signal <w7> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cz> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <pc> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <f3> is unconnected in block <f16>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx5>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx9>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx10>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx11>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx12>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx13>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx14>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx15>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m3> is unconnected in block <mx16>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o2> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h5> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <o1> is unconnected in block <f3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h3> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m1> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <m2> is unconnected in block <r1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <h1> is unconnected in block <f1>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r4/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r14/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r4/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r16/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r15/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r3/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r1/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r2/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r7/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r9/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r11/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r6/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r9/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r13/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r5/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r5/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r1/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r2/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r10/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r14/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r12/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r6/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r7/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r8/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r10/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r16/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r11/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r8/r2/n11/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r13/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r15/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r3/r2/n4/y_and0000.
+WARNING:Xst:2170 - Unit register_16 : the following signal(s) form a combinatorial loop: r12/r2/n11/y_and0000.
+
+Optimizing unit <pc> ...
+
+Optimizing unit <fa_16> ...
+
+Optimizing unit <register_16> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pc, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : pc.ngr
+Top Level Output File Name         : pc
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 36
+
+Cell Usage :
+# BELS                             : 83
+#      LUT2                        : 5
+#      LUT3                        : 54
+#      LUT4                        : 20
+#      MUXF5                       : 4
+# IO Buffers                       : 36
+#      IBUF                        : 20
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-5 
+
+ Number of Slices:                       45  out of    960     4%  
+ Number of 4 input LUTs:                 79  out of   1920     4%  
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of     66    54%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 83.523ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 467937 / 16
+-------------------------------------------------------------------------
+Delay:               83.523ns (Levels of Logic = 78)
+  Source:            load (PAD)
+  Destination:       out<15> (PAD)
+
+  Data Path: load to out<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   1.106   0.991  load_IBUF (load_IBUF)
+     LUT2:I1->O           14   0.612   1.002  a1/n2/y1 (w4)
+     LUT3:I0->O            2   0.612   0.410  m3/mx1/m4/y1 (out_0_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r1/r2/n4/y_and00001 (r1/r1/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r1/r2/n10/y1 (w1<0>)
+     LUT3:I2->O            5   0.612   0.568  m1/mx1/m4/y1 (w2<0>)
+     LUT4:I2->O            2   0.612   0.410  m3/mx2/m4/y1 (out_1_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r2/r2/n4/y_and00001 (r1/r2/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r2/r2/n10/y1 (w1<1>)
+     LUT3:I2->O            4   0.612   0.651  m1/mx2/m4/y1 (w2<1>)
+     LUT4:I0->O            1   0.612   0.000  m3/mx3/m4/y1 (m3/mx3/m4/y)
+     MUXF5:I1->O           2   0.278   0.410  m3/mx3/m4/y_f5 (out_2_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r3/r2/n4/y_and00001 (r1/r3/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r3/r2/n10/y1 (w1<2>)
+     LUT3:I2->O            4   0.612   0.651  m1/mx3/m4/y1 (w2<2>)
+     LUT3:I0->O            1   0.612   0.426  m3/mx4/m4/y_SW0 (N12)
+     LUT4:I1->O            2   0.612   0.410  m3/mx4/m4/y (out_3_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r4/r2/n4/y_and00001 (r1/r4/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r4/r2/n10/y1 (w1<3>)
+     LUT3:I2->O            2   0.612   0.383  m1/mx4/m4/y1 (w2<3>)
+     LUT4:I3->O            3   0.612   0.520  f1/f5/f2/h4/y11 (f1/N12)
+     LUT4:I1->O            2   0.612   0.410  m3/mx5/m4/y1 (out_4_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r5/r2/n4/y_and00001 (r1/r5/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r5/r2/n10/y1 (w1<4>)
+     LUT3:I2->O            3   0.612   0.454  m1/mx5/m4/y1 (w2<4>)
+     LUT4:I3->O            1   0.612   0.000  m3/mx6/m4/y1 (m3/mx6/m4/y)
+     MUXF5:I1->O           2   0.278   0.410  m3/mx6/m4/y_f5 (out_5_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r6/r2/n4/y_and00001 (r1/r6/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r6/r2/n10/y1 (w1<5>)
+     LUT3:I2->O            3   0.612   0.603  m1/mx6/m4/y1 (w2<5>)
+     LUT3:I0->O            4   0.612   0.568  f1/f7/f2/h4/y11 (f1/N9)
+     LUT4:I1->O            2   0.612   0.410  m3/mx7/m4/y1 (out_6_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r7/r2/n4/y_and00001 (r1/r7/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r7/r2/n10/y1 (w1<6>)
+     LUT3:I2->O            4   0.612   0.568  m1/mx7/m4/y1 (w2<6>)
+     LUT3:I1->O            1   0.612   0.360  m3/mx8/m4/y_SW0 (N01)
+     LUT4:I3->O            2   0.612   0.410  m3/mx8/m4/y (out_7_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r8/r2/n4/y_and00001 (r1/r8/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r8/r2/n10/y1 (w1<7>)
+     LUT3:I2->O            3   0.612   0.520  m1/mx8/m4/y1 (w2<7>)
+     LUT4:I1->O            1   0.612   0.360  m3/mx9/m4/y_SW0 (N10)
+     LUT4:I3->O            2   0.612   0.410  m3/mx9/m4/y (out_8_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r9/r2/n4/y_and00001 (r1/r9/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r9/r2/n10/y1 (w1<8>)
+     LUT3:I2->O            2   0.612   0.410  m1/mx9/m4/y1 (w2<8>)
+     LUT4:I2->O            4   0.612   0.568  f1/f10/f2/h4/y11 (f1/N6)
+     LUT4:I1->O            2   0.612   0.410  m3/mx10/m4/y1 (out_9_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r10/r2/n4/y_and00001 (r1/r10/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r10/r2/n10/y1 (w1<9>)
+     LUT3:I2->O            4   0.612   0.502  m1/mx10/m4/y1 (w2<9>)
+     LUT4:I3->O            1   0.612   0.000  m3/mx11/m4/y1 (m3/mx11/m4/y)
+     MUXF5:I1->O           2   0.278   0.410  m3/mx11/m4/y_f5 (out_10_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r11/r2/n4/y_and00001 (r1/r11/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r11/r2/n10/y1 (w1<10>)
+     LUT3:I2->O            4   0.612   0.568  m1/mx11/m4/y1 (w2<10>)
+     LUT3:I1->O            1   0.612   0.509  m3/mx12/m4/y_SW0 (N16)
+     LUT4:I0->O            2   0.612   0.410  m3/mx12/m4/y (out_11_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r12/r2/n4/y_and00001 (r1/r12/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r12/r2/n10/y1 (w1<11>)
+     LUT3:I2->O            2   0.612   0.410  m1/mx12/m4/y1 (w2<11>)
+     LUT4:I2->O            4   0.612   0.568  f1/f13/f2/h4/y11 (f1/N3)
+     LUT4:I1->O            2   0.612   0.410  m3/mx13/m4/y1 (out_12_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r13/r2/n4/y_and00001 (r1/r13/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r13/r2/n10/y1 (w1<12>)
+     LUT3:I2->O            4   0.612   0.502  m1/mx13/m4/y1 (w2<12>)
+     LUT4:I3->O            1   0.612   0.000  m3/mx14/m4/y1 (m3/mx14/m4/y)
+     MUXF5:I1->O           2   0.278   0.410  m3/mx14/m4/y_f5 (out_13_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r14/r2/n4/y_and00001 (r1/r14/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r14/r2/n10/y1 (w1<13>)
+     LUT3:I2->O            4   0.612   0.651  m1/mx14/m4/y1 (w2<13>)
+     LUT3:I0->O            1   0.612   0.509  m3/mx15/m4/y_SW0 (N14)
+     LUT4:I0->O            2   0.612   0.410  m3/mx15/m4/y (out_14_OBUF)
+     LUT3:I2->O            2   0.612   0.449  r1/r15/r2/n4/y_and00001 (r1/r15/r2/n4/y_and0000)
+     LUT3:I1->O            2   0.612   0.410  r1/r15/r2/n10/y1 (w1<14>)
+     LUT3:I2->O            2   0.612   0.410  m1/mx15/m4/y1 (w2<14>)
+     LUT4:I2->O            1   0.612   0.426  f1/f16/f2/h4/y11 (f1/N01)
+     LUT4:I1->O            2   0.612   0.380  m3/mx16/m4/y1 (out_15_OBUF)
+     OBUF:I->O                 3.169          out_15_OBUF (out<15>)
+    ----------------------------------------
+    Total                     83.523ns (49.451ns logic, 34.072ns route)
+                                       (59.2% logic, 40.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.09 secs
+ 
+--> 
+
+Total memory usage is 243584 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  147 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

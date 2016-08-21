@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+int i;
+int j;
+for (j=0; j<3; j++)
+for (i=0; i<3; i++)
+{
+enum petrolpumps {ZLINE=0, MPD, QPD};
+enum parityTypes {noparity = 0, odd, even};
+enum petrolpumps using= ZLINE+i;
+enum parityTypes parity = noparity;
+int packet = 0;
+/* Forming data packets */
+packet = (using << 8)+j;
+packet = packet | parity;
+/* Sending the data packet */
+fprintf(stderr,"In send program- Sending the packet\n");
+fprintf(stdout,"%d\n",packet);
+}
+return 1;
+}

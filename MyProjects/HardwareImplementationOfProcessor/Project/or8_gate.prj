@@ -1,0 +1,3 @@
+verilog work "NAND_gate.v"
+verilog work "or_gate.v"
+verilog work "or8_gate.v"

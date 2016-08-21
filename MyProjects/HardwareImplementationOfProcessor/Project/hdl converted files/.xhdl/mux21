@@ -1,0 +1,47 @@
+[%General]
+%3Csource%3E=
+%3Cfilename%3E=E:/Project/hdl converted files/mux21.vhd
+%3Cclass%3E=108
+%3Cbasename%3E=mux21
+%3Cpackage%3E=false
+
+[Data]
+%3CgenericOrder%3E=@Invalid()
+%3CportOrder%3E=out, a, b, sel
+%3Ccompdecl%3E="COMPONENT mux21 IS\n<indent>\nPORT (\n<indent>\nout_xhdl1<tab:1> : OUT STD_LOGIC;\na<tab:1> : IN STD_LOGIC;\nb<tab:1> : IN STD_LOGIC;\nsel<tab:1> : IN STD_LOGIC\n<outdent>\n);\n<outdent>\nEND COMPONENT;\n\n"
+a\category=114
+a\port=1
+a\alias=a
+b\category=114
+b\port=1
+b\alias=b
+m1\category=106
+m1\port=0
+m1\alias=m1
+m2\category=106
+m2\port=0
+m2\alias=m2
+m3\category=106
+m3\port=0
+m3\alias=m3
+m4\category=106
+m4\port=0
+m4\alias=m4
+mux21\category=108
+mux21\port=0
+mux21\alias=mux21
+out\category=114
+out\port=2
+out\alias=out_xhdl1
+sel\category=114
+sel\port=1
+sel\alias=sel
+w1\category=114
+w1\port=0
+w1\alias=w1
+w2\category=114
+w2\port=0
+w2\alias=w2
+w3\category=114
+w3\port=0
+w3\alias=w3

@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main (int argc, char *argv[])
+{
+
+	int val1 = atoi (argv[1]);
+	int val2 = atoi (argv[2]);
+	int val3 = atoi (argv[3]);
+
+	int i;
+	for (i=val1; i<val2; i+=val3)
+		printf("%d\t", i);
+	printf("\n");	
+
+}

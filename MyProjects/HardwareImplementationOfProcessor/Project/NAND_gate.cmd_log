@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/user pc/Project/NAND_gate.xst" -ofn "C:/Users/user pc/Project/NAND_gate.syr" 
+xst -intstyle ise -ifn "C:/Users/user pc/Project/NAND_gate.xst" -ofn "C:/Users/user pc/Project/NAND_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "NAND_gate.ngc" NAND_gate.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o NAND_gate_map.ncd NAND_gate.ngd NAND_gate.pcf 
+par -w -intstyle ise -ol high -t 1 NAND_gate_map.ncd NAND_gate.ncd NAND_gate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml NAND_gate.twx NAND_gate.ncd -o NAND_gate.twr NAND_gate.pcf 
+xst -intstyle ise -ifn "E:/Project/NAND_gate.xst" -ofn "E:/Project/NAND_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm mux16_81.bmm -p xc3s100e-vq100-5 NAND_gate.ngc NAND_gate.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o NAND_gate_map.ncd NAND_gate.ngd NAND_gate.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml NAND_gate_preroute.twx NAND_gate_map.ncd -o NAND_gate_preroute.twr NAND_gate.pcf -ucf demux_16_21.ucf 

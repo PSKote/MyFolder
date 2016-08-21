@@ -1,0 +1,1074 @@
+The system is: Linux - 3.19.0-65-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1554110786/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1554110786.dir/build.make CMakeFiles/cmTryCompileExec1554110786.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1554110786.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1554110786.dir/testCCompiler.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1554110786
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1554110786.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1554110786.dir/testCCompiler.c.o  -o cmTryCompileExec1554110786 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3481766248/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3481766248.dir/build.make CMakeFiles/cmTryCompileExec3481766248.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3481766248
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3481766248.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3481766248 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3481766248' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3481766248 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3481766248/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3481766248.dir/build.make CMakeFiles/cmTryCompileExec3481766248.dir/build]
+  ignore line: [make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3481766248]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3481766248.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3481766248 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3481766248' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3481766248 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3481766248] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3481766248.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8] ==> [/usr/lib/gcc/i686-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.8;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec157436610/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec157436610.dir/build.make CMakeFiles/cmTryCompileExec157436610.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec157436610.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec157436610.dir/testCXXCompiler.cxx.o -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec157436610
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec157436610.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec157436610.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec157436610 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec188049846/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec188049846.dir/build.make CMakeFiles/cmTryCompileExec188049846.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec188049846
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec188049846.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec188049846 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec188049846' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec188049846 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec188049846/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec188049846.dir/build.make CMakeFiles/cmTryCompileExec188049846.dir/build]
+  ignore line: [make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec188049846]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec188049846.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec188049846 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.8/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec188049846' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec188049846 /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/4.8/crtend.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec188049846] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec188049846.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8] ==> [/usr/lib/gcc/i686-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.8;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1506171040/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1506171040.dir/build.make CMakeFiles/cmTryCompileExec1506171040.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1506171040.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTryCompileExec1506171040.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1506171040
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1506171040.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getaddrinfo    CMakeFiles/cmTryCompileExec1506171040.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1506171040 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xdr_free exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1354496500/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1354496500.dir/build.make CMakeFiles/cmTryCompileExec1354496500.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1354496500.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_free   -o CMakeFiles/cmTryCompileExec1354496500.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1354496500
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1354496500.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_free    CMakeFiles/cmTryCompileExec1354496500.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1354496500 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function xdr_longlong_t exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3608740297/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3608740297.dir/build.make CMakeFiles/cmTryCompileExec3608740297.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3608740297.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_longlong_t   -o CMakeFiles/cmTryCompileExec3608740297.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3608740297
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3608740297.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=xdr_longlong_t    CMakeFiles/cmTryCompileExec3608740297.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3608740297 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeded with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3497038463/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3497038463.dir/build.make CMakeFiles/cmTryCompileExec3497038463.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3497038463.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTryCompileExec3497038463.dir/src.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c
+/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/src.c:2:32: warning: unused variable ‘tmp’ [-Wunused-variable]
+ int main () { struct timespec *tmp; return 0; }
+                                ^
+Linking C executable cmTryCompileExec3497038463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3497038463.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DHAVE_STRUCT_TIMESPEC    CMakeFiles/cmTryCompileExec3497038463.dir/src.c.o  -o cmTryCompileExec3497038463 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <time.h>
+int main () { struct timespec *tmp; return 0; }
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4003027923/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4003027923.dir/build.make CMakeFiles/cmTryCompileExec4003027923.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4003027923.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec4003027923.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4003027923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4003027923.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTryCompileExec4003027923.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4003027923 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1594213915/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1594213915.dir/build.make CMakeFiles/cmTryCompileExec1594213915.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1594213915.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=usleep   -o CMakeFiles/cmTryCompileExec1594213915.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1594213915
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1594213915.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=usleep    CMakeFiles/cmTryCompileExec1594213915.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1594213915 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cfmakeraw exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec611477288/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec611477288.dir/build.make CMakeFiles/cmTryCompileExec611477288.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec611477288.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=cfmakeraw   -o CMakeFiles/cmTryCompileExec611477288.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec611477288
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec611477288.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=cfmakeraw    CMakeFiles/cmTryCompileExec611477288.dir/CheckFunctionExists.c.o  -o cmTryCompileExec611477288 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dirname exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3710921241/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3710921241.dir/build.make CMakeFiles/cmTryCompileExec3710921241.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3710921241.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dirname   -o CMakeFiles/cmTryCompileExec3710921241.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3710921241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3710921241.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dirname    CMakeFiles/cmTryCompileExec3710921241.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3710921241 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2837624959/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2837624959.dir/build.make CMakeFiles/cmTryCompileExec2837624959.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2837624959.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTryCompileExec2837624959.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2837624959
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2837624959.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt    CMakeFiles/cmTryCompileExec2837624959.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2837624959 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt_long exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1024936110/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1024936110.dir/build.make CMakeFiles/cmTryCompileExec1024936110.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1024936110.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt_long   -o CMakeFiles/cmTryCompileExec1024936110.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1024936110
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1024936110.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getopt_long    CMakeFiles/cmTryCompileExec1024936110.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1024936110 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1232792307/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1232792307.dir/build.make CMakeFiles/cmTryCompileExec1232792307.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1232792307.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1232792307.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1232792307
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1232792307.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1232792307.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1232792307 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1732035051/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1732035051.dir/build.make CMakeFiles/cmTryCompileExec1732035051.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1732035051.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1732035051.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1732035051
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1732035051.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1732035051.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1732035051 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2055094207/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2055094207.dir/build.make CMakeFiles/cmTryCompileExec2055094207.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2055094207.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2055094207.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2055094207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2055094207.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2055094207.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2055094207 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lt_dlopenext exists in the ltdl passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2485259800/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2485259800.dir/build.make CMakeFiles/cmTryCompileExec2485259800.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2485259800.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=lt_dlopenext   -o CMakeFiles/cmTryCompileExec2485259800.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2485259800
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2485259800.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=lt_dlopenext    CMakeFiles/cmTryCompileExec2485259800.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2485259800 -rdynamic -lltdl -ldl 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1137879721/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1137879721.dir/build.make CMakeFiles/cmTryCompileExec1137879721.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1137879721.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTryCompileExec1137879721.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1137879721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1137879721.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTryCompileExec1137879721.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1137879721 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec466986530/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec466986530.dir/build.make CMakeFiles/cmTryCompileExec466986530.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec466986530.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec466986530.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec466986530
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec466986530.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec466986530.dir/CheckFunctionExists.c.o  -o cmTryCompileExec466986530 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atan2 exists in the m passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec26576269/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec26576269.dir/build.make CMakeFiles/cmTryCompileExec26576269.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec26576269.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTryCompileExec26576269.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘atan2’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec26576269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec26576269.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=atan2    CMakeFiles/cmTryCompileExec26576269.dir/CheckFunctionExists.c.o  -o cmTryCompileExec26576269 -rdynamic -lm 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function round exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3392214918/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3392214918.dir/build.make CMakeFiles/cmTryCompileExec3392214918.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3392214918.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=round   -o CMakeFiles/cmTryCompileExec3392214918.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘round’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3392214918
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3392214918.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=round    CMakeFiles/cmTryCompileExec3392214918.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3392214918 -rdynamic -lm 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function rint exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec998141207/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec998141207.dir/build.make CMakeFiles/cmTryCompileExec998141207.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec998141207.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rint   -o CMakeFiles/cmTryCompileExec998141207.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘rint’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec998141207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec998141207.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rint    CMakeFiles/cmTryCompileExec998141207.dir/CheckFunctionExists.c.o  -o cmTryCompileExec998141207 -rdynamic -lm 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function jpeg_read_header exists in the jpeg passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3241186490/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3241186490.dir/build.make CMakeFiles/cmTryCompileExec3241186490.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3241186490.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTryCompileExec3241186490.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3241186490
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3241186490.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=jpeg_read_header    CMakeFiles/cmTryCompileExec3241186490.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3241186490 -rdynamic -ljpeg 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2799479424/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2799479424.dir/build.make CMakeFiles/cmTryCompileExec2799479424.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2799479424.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2799479424.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2799479424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2799479424.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2799479424.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2799479424 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compressBound exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4217598259/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4217598259.dir/build.make CMakeFiles/cmTryCompileExec4217598259.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4217598259.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compressBound -I/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/zlib.h    -o CMakeFiles/cmTryCompileExec4217598259.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4217598259
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4217598259.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compressBound    CMakeFiles/cmTryCompileExec4217598259.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4217598259 -rdynamic -lz 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1937675547/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1937675547.dir/build.make CMakeFiles/cmTryCompileExec1937675547.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1937675547.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTryCompileExec1937675547.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1937675547
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1937675547.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress2    CMakeFiles/cmTryCompileExec1937675547.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1937675547 -rdynamic -lz 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files zlib.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec963933227/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec963933227.dir/build.make CMakeFiles/cmTryCompileExec963933227.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec963933227.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec963933227.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec963933227
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec963933227.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec963933227.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec963933227 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3061266883/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3061266883.dir/build.make CMakeFiles/cmTryCompileExec3061266883.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3061266883.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec3061266883.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3061266883
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3061266883.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec3061266883.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3061266883 -rdynamic -lrt 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1518774178/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1518774178.dir/build.make CMakeFiles/cmTryCompileExec1518774178.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1518774178.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec1518774178.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1518774178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1518774178.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec1518774178.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1518774178 -rdynamic -lrt 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2838132466/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2838132466.dir/build.make CMakeFiles/cmTryCompileExec2838132466.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2838132466.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2838132466.dir/CheckIncludeFile.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2838132466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2838132466.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2838132466.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2838132466 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3883764060/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3883764060.dir/build.make CMakeFiles/cmTryCompileExec3883764060.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3883764060.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3883764060.dir/CheckIncludeFile.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3883764060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3883764060.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3883764060.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3883764060 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2165802998/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2165802998.dir/build.make CMakeFiles/cmTryCompileExec2165802998.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2165802998.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2165802998.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec2165802998
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2165802998.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2165802998.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec2165802998 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4258474340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4258474340.dir/build.make CMakeFiles/cmTryCompileExec4258474340.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4258474340.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4258474340.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4258474340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4258474340.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec4258474340.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4258474340 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdio.h;jpeglib.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2128501208/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2128501208.dir/build.make CMakeFiles/cmTryCompileExec2128501208.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2128501208.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2128501208.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2128501208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2128501208.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2128501208.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2128501208 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;linux/videodev2.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2278697279/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2278697279.dir/build.make CMakeFiles/cmTryCompileExec2278697279.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2278697279.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2278697279.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2278697279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2278697279.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2278697279.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2278697279 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files dc1394/control.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2830578084/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2830578084.dir/build.make CMakeFiles/cmTryCompileExec2830578084.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2830578084.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2830578084.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2830578084
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2830578084.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2830578084.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2830578084 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files libraw1394/raw1394.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2632013711/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2632013711.dir/build.make CMakeFiles/cmTryCompileExec2632013711.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2632013711.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2632013711.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2632013711
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2632013711.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2632013711.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2632013711 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files dc1394/dc1394.h;dc1394/linux/control.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2143231008/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2143231008.dir/build.make CMakeFiles/cmTryCompileExec2143231008.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2143231008.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2143231008.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2143231008
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2143231008.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2143231008.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2143231008 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the inb_p exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2949470473/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2949470473.dir/build.make CMakeFiles/cmTryCompileExec2949470473.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2949470473.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2949470473.dir/CheckSymbolExists.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2949470473
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2949470473.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2949470473.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2949470473 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+File /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inb_p
+  return ((int*)(&inb_p))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the outb_p exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1732771186/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1732771186.dir/build.make CMakeFiles/cmTryCompileExec1732771186.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1732771186.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1732771186.dir/CheckSymbolExists.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1732771186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1732771186.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1732771186.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1732771186 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+File /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef outb_p
+  return ((int*)(&outb_p))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files sys/io.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1347887333/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1347887333.dir/build.make CMakeFiles/cmTryCompileExec1347887333.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1347887333.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1347887333.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1347887333
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1347887333.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1347887333.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1347887333 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/joystick.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3781858337/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3781858337.dir/build.make CMakeFiles/cmTryCompileExec3781858337.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3781858337.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3781858337.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3781858337
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3781858337.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3781858337.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3781858337 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3339056208/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3339056208.dir/build.make CMakeFiles/cmTryCompileExec3339056208.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3339056208.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3339056208.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3339056208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3339056208.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3339056208.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3339056208 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files asm/ioctls.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec299463043/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec299463043.dir/build.make CMakeFiles/cmTryCompileExec299463043.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec299463043.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec299463043.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec299463043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec299463043.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec299463043.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec299463043 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/serial.h exist passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4239257658/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4239257658.dir/build.make CMakeFiles/cmTryCompileExec4239257658.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4239257658.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4239257658.dir/CheckIncludeFiles.c.o   -c /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4239257658
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4239257658.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec4239257658.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4239257658 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_dialog_new_with_buttons exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec62300651/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec62300651.dir/build.make CMakeFiles/cmTryCompileExec62300651.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec62300651.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_new_with_buttons  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/i386-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz    -o CMakeFiles/cmTryCompileExec62300651.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec62300651
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec62300651.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_new_with_buttons  -pthread    CMakeFiles/cmTryCompileExec62300651.dir/CheckFunctionExists.c.o  -o cmTryCompileExec62300651 -rdynamic -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_button_set_use_stock exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4100634539/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4100634539.dir/build.make CMakeFiles/cmTryCompileExec4100634539.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4100634539.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_button_set_use_stock  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/i386-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz    -o CMakeFiles/cmTryCompileExec4100634539.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4100634539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4100634539.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_button_set_use_stock  -pthread    CMakeFiles/cmTryCompileExec4100634539.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4100634539 -rdynamic -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gtk_dialog_run exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec863231163/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec863231163.dir/build.make CMakeFiles/cmTryCompileExec863231163.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec863231163.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_run  -pthread -I/usr/include/gtk-2.0 -I/usr/lib/i386-linux-gnu/gtk-2.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/i386-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz    -o CMakeFiles/cmTryCompileExec863231163.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec863231163
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec863231163.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gtk_dialog_run  -pthread    CMakeFiles/cmTryCompileExec863231163.dir/CheckFunctionExists.c.o  -o cmTryCompileExec863231163 -rdynamic -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/i386-linux-gnu/libX11.so;/usr/lib/i386-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3165611708/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3165611708.dir/build.make CMakeFiles/cmTryCompileExec3165611708.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3165611708.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3165611708.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3165611708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3165611708.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3165611708.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3165611708 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3387147485/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3387147485.dir/build.make CMakeFiles/cmTryCompileExec3387147485.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3387147485.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3387147485.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3387147485
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3387147485.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3387147485.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3387147485 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1291532166/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1291532166.dir/build.make CMakeFiles/cmTryCompileExec1291532166.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1291532166.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1291532166.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1291532166
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1291532166.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1291532166.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1291532166 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1018263434/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1018263434.dir/build.make CMakeFiles/cmTryCompileExec1018263434.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1018263434.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1018263434.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1018263434
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1018263434.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec1018263434.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1018263434 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1646287675/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1646287675.dir/build.make CMakeFiles/cmTryCompileExec1646287675.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1646287675.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1646287675.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1646287675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1646287675.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1646287675.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1646287675 -rdynamic 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1889904040/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1889904040.dir/build.make CMakeFiles/cmTryCompileExec1889904040.dir/build
+make[1]: Entering directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1889904040.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec1889904040.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1889904040
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1889904040.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec1889904040.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1889904040 -rdynamic -lICE 
+make[1]: Leaving directory `/home/prajwal/Desktop/CProg/player-3.0.2/build/CMakeFiles/CMakeTmp'
+
+

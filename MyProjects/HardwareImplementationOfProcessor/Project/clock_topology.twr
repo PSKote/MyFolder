@@ -1,0 +1,25 @@
+#-------------------------------------------------------------------------------
+# Clock Net Topology
+# Design: E:\Project\cpu_map.ncd
+# Physical Constraints File: E:\Project\cpu.pcf
+# Generated: Mon Mar 14 19:15:19 2016
+# Release 14.2 Timing Analyzer
+#-------------------------------------------------------------------------------
+
+
+0 clock inputs:
+
+
+0 leaf clock nets:
+**Leaf clock nets are the lowest level networks in the clock network topology.
+
+0 primary input clock nets:
+**Primary input clock nets are the clock networks directly driven by clock inputs/pads.
+
+0 non-primary input clock nets:
+**Non-primary input clock nets are driverless top level clock networks in the clock network topology.
+
+0 clock nets in total.
+
+Clock Network Topology:
+--------------------------------------------------------------------------------

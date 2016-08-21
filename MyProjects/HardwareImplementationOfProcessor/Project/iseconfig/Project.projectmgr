@@ -1,0 +1,676 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Project" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/and_16 C:|Users|user pc|Project|andgate_16bit.v</ClosedNode>
+         <ClosedNode>/and_gate C:|Users|user pc|Project|AND_gate.v</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c2 - ram64</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c3 - ram64</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c4 - rom_sel_block</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a1 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a2 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a3 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a4 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a5 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a6 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/n1 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/n2 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/n3 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/o1 - or_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/o2 - or_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/o3 - or_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/o4 - or_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r1 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r10 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r11 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r12 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r13 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r14 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r15 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r16 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r2 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r3 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r4 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r5 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r6 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r7 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r8 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r9 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p3 - mux16_21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p4 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p5 - newalu</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p7 - pc</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/d1 - demux_18</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/d1 - demux_18/d2 - demux_14</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/d1 - demux_18/d3 - demux_14</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/d1 - demux_18</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r1 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r10 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r11 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r12 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r13 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r14 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r15 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r16 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r2 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r3 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r4 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r5 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r6 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r7 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r8 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r9 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r2 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r3 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r4 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r5 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r6 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r7 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r8 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r2 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r3 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r4 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r5 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r6 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r7 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r8 - ram8</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p2 - register_16</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p3 - mux16_21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p5 - newalu</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p7 - pc</ClosedNode>
+         <ClosedNode>/demux16_18 C:|Users|user pc|Project|mux16_18.v</ClosedNode>
+         <ClosedNode>/demux16_18 C:|Users|user pc|Project|mux16_18.v/d1 - demux_16_21</ClosedNode>
+         <ClosedNode>/demux21 C:|Users|user pc|Project|demux1x2.v</ClosedNode>
+         <ClosedNode>/demux_16_14 C:|Users|user pc|Project|demux_16_14.v</ClosedNode>
+         <ClosedNode>/demux_16_14 C:|Users|user pc|Project|demux_16_14.v/d1 - demux_16_21/du1 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_14 C:|Users|user pc|Project|demux_16_14.v/d1 - demux_16_21/du2 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du1 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du1 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du10 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du10 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du11 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du11 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du12 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du12 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du13 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du13 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du14 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du14 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du15 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du15 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du16 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du16 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du2 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du2 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du3 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du3 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du4 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du4 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du5 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du5 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du6 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du6 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du7 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du7 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du8 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du8 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du9 - demux12</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du9 - demux21</ClosedNode>
+         <ClosedNode>/dff C:|Users|user pc|Project|dflipflop.v</ClosedNode>
+         <ClosedNode>/fa_16 C:|Users|user pc|Project|fulladder_16bit.v</ClosedNode>
+         <ClosedNode>/fulladder C:|Users|user pc|Project|fulladder.v</ClosedNode>
+         <ClosedNode>/load_comp C:|Users|user pc|Project|load_component.v</ClosedNode>
+         <ClosedNode>/mux16_21 C:|Users|user pc|Project|mux16_21.v</ClosedNode>
+         <ClosedNode>/mux16_81 C:|Users|user pc|Project|mux16_81.v</ClosedNode>
+         <ClosedNode>/mux41 C:|Users|user pc|Project|mux4x1.v</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v</ClosedNode>
+         <ClosedNode>/mux_16_41 C:|Users|user pc|Project|mux4x1_16bit.v</ClosedNode>
+         <ClosedNode>/nand3_gate C:|Users|user pc|Project|inc_instruction.v</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/a1 - and_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/f1 - fa_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m1 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m2 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m3 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m4 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m5 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m6 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m7 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m8 - mux21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m8 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m9 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/n1 - notgate_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/n2 - notgate_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/n3 - notgate_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/o1 - or8_gate</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/o2 - or8_gate</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/o3 - or_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n1 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n10 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n11 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n12 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n13 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n14 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n15 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n16 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n2 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n3 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n4 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n5 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n6 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n7 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n8 - NOT_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v/n9 - NOT_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a1 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a10 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a11 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a12 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a13 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a14 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a15 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a16 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a2 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a3 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a4 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a5 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a6 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a7 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a8 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a9 - or_gate</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p1 - mux21</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p2 - register_16</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p3 - mux21</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16</ClosedNode>
+         <ClosedNode>/pc C:|Users|user pc|Project|programcounter.v</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/d1 - demux_18</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r1 - ram64/d1 - demux_18</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r1 - ram64/r1 - ram8</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r1 - ram64/r2 - ram8</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r2 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r3 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r4 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r5 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r6 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r7 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v</ClosedNode>
+         <ClosedNode>/reg_1bit C:|Users|user pc|Project|register_1bit.v</ClosedNode>
+         <ClosedNode>/reg_1bit C:|Users|user pc|Project|register_1bit.v/r1 - mux21</ClosedNode>
+         <ClosedNode>/reg_1bit C:|Users|user pc|Project|register_1bit.v/r2 - dff</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v</ClosedNode>
+         <ClosedNode>/rom_sel_block C:|Users|user pc|Project|rom_sel_block.v</ClosedNode>
+         <ClosedNode>/rom_sel_block E:|Project|rom_sel_block.v</ClosedNode>
+         <ClosedNode>/xor_gate C:|Users|user pc|Project|xor_gate.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>p5 - newalu (E:/Project/newcpu.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000116000000020000000000000000000000000200000064ffffffff000000810000000300000002000001160000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>p5 - newalu (E:/Project/newcpu.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>andgate_16bit.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/and_16 C:|Users|user pc|Project|andgate_16bit.v</ClosedNode>
+         <ClosedNode>/and_gate C:|Users|user pc|Project|AND_gate.v</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/a1 - and_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/a2 - and_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/a3 - and_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/a4 - and_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/a5 - and_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/a6 - and_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/l1 - load_comp</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/n1 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/n2 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/n3 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/o1 - or3_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/o1 - or_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/o2 - or_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/o3 - or_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/o4 - or_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p1 - mux16_21</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r1 - reg_1bit/r1 - mux21</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r1 - reg_1bit/r2 - dff</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r10 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r11 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r12 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r13 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r14 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r15 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r16 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r2 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r3 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r4 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r5 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r6 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r7 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r8 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p2 - register_16/r9 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p3 - mux16_21</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p4 - register_16</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p5 - newalu</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p7 - pc</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p7 - pc/a1 - and_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p7 - pc/f1 - fa_16</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p7 - pc/m1 - mux16_21</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p7 - pc/m2 - mux16_21</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p7 - pc/m3 - mux16_21</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p7 - pc/n1 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c1 - cpu/p7 - pc/r1 - register_16</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c2 - ram64</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c3 - ram64</ClosedNode>
+         <ClosedNode>/computer C:|Users|user pc|Project|computer.v/c4 - rom_sel_block</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a1 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a2 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a3 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a4 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a5 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/a6 - and_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/n1 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/n2 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/n3 - NOT_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/o1 - or_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/o2 - or_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/o3 - or_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/o4 - or_gate</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx10 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx11 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx12 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx13 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx14 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx15 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx16 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx2 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx3 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx4 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx5 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx6 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx7 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx8 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p1 - mux16_21/mx9 - mux21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r1 - reg_1bit/r2 - dff</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r10 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r11 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r12 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r13 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r14 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r15 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r16 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r2 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r3 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r4 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r5 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r6 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r7 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r8 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p2 - register_16/r9 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p3 - mux16_21</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p4 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p5 - newalu</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c1 - cpu/p7 - pc</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/d1 - demux_18/d2 - demux_14</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/d1 - demux_18/d3 - demux_14</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/d1 - demux_18</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r1 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r10 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r11 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r12 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r13 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r14 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r15 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r16 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r2 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r3 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r4 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r5 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r6 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r7 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r8 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r1 - register_16/r9 - reg_1bit</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r2 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r3 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r4 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r5 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r6 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r7 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r1 - ram8/r8 - register_16</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r2 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r3 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r4 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r5 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r6 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r7 - ram8</ClosedNode>
+         <ClosedNode>/computer E:|Project|computer.v/c2 - ram64/r8 - ram8</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/l1 - load_comp</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/o1 - or3_gate</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx10 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx11 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx12 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx13 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx14 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx15 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx16 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx2 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx3 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx4 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx5 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx6 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx7 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx8 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p1 - mux16_21/mx9 - mux21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p2 - register_16</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p3 - mux16_21</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p5 - newalu</ClosedNode>
+         <ClosedNode>/cpu C:|Users|user pc|Project|partofcpu.v/p7 - pc</ClosedNode>
+         <ClosedNode>/demux16_18 C:|Users|user pc|Project|mux16_18.v</ClosedNode>
+         <ClosedNode>/demux16_18 C:|Users|user pc|Project|mux16_18.v/d1 - demux_16_21</ClosedNode>
+         <ClosedNode>/demux16_18 C:|Users|user pc|Project|mux16_18.v/d2 - demux_16_14</ClosedNode>
+         <ClosedNode>/demux16_18 C:|Users|user pc|Project|mux16_18.v/d3 - demux_16_14</ClosedNode>
+         <ClosedNode>/demux21 C:|Users|user pc|Project|demux1x2.v</ClosedNode>
+         <ClosedNode>/demux_16_14 C:|Users|user pc|Project|demux_16_14.v</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du1 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du10 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du11 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du12 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du13 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du14 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du15 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du16 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du2 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du3 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du4 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du5 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du6 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du7 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du8 - demux21</ClosedNode>
+         <ClosedNode>/demux_16_21 C:|Users|user pc|Project|demux1x2_16bit.v/du9 - demux21</ClosedNode>
+         <ClosedNode>/dff C:|Users|user pc|Project|dflipflop.v</ClosedNode>
+         <ClosedNode>/fa_16 C:|Users|user pc|Project|fulladder_16bit.v</ClosedNode>
+         <ClosedNode>/fulladder C:|Users|user pc|Project|fulladder.v</ClosedNode>
+         <ClosedNode>/halfadder C:|Users|user pc|Project|halfadder.v</ClosedNode>
+         <ClosedNode>/load_comp C:|Users|user pc|Project|load_component.v</ClosedNode>
+         <ClosedNode>/mux16_21 C:|Users|user pc|Project|mux16_21.v</ClosedNode>
+         <ClosedNode>/mux16_81 C:|Users|user pc|Project|mux16_81.v</ClosedNode>
+         <ClosedNode>/mux21 C:|Users|user pc|Project|mux2x1.v</ClosedNode>
+         <ClosedNode>/mux41 C:|Users|user pc|Project|mux4x1.v</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu1 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu10 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu11 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu12 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu13 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu14 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu15 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu16 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu2 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu3 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu4 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu5 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu6 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu7 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu8 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_21 C:|Users|user pc|Project|mux2x1_16bit.v/mu9 - mux21</ClosedNode>
+         <ClosedNode>/mux_16_41 C:|Users|user pc|Project|mux4x1_16bit.v</ClosedNode>
+         <ClosedNode>/nand3_gate C:|Users|user pc|Project|inc_instruction.v</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/a1 - and_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/f1 - fa_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m1 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m2 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m3 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m4 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m5 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m6 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m7 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m8 - mux21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/m9 - mux_16_21</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/n1 - notgate_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/n2 - notgate_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/n3 - notgate_16</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/o1 - or8_gate</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/o2 - or8_gate</ClosedNode>
+         <ClosedNode>/newcpu C:|Users|user pc|Project|newcpu.v/o3 - or_gate</ClosedNode>
+         <ClosedNode>/notgate_16 C:|Users|user pc|Project|notgate_16bit.v</ClosedNode>
+         <ClosedNode>/or3_gate C:|Users|user pc|Project|or3_gate.v</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a1 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a10 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a11 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a12 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a13 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a14 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a15 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a16 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a2 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a3 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a4 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a5 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a6 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a7 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a8 - or_gate</ClosedNode>
+         <ClosedNode>/or_16 C:|Users|user pc|Project|orgate_16bit.v/a9 - or_gate</ClosedNode>
+         <ClosedNode>/or_gate C:|Users|user pc|Project|or_gate.v</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p1 - mux21</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p2 - register_16</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p3 - mux21</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r1 - reg_1bit/r1 - mux21</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r1 - reg_1bit/r2 - dff</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r10 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r11 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r12 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r13 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r14 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r15 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r16 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r2 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r3 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r4 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r5 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r6 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r7 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r8 - reg_1bit</ClosedNode>
+         <ClosedNode>/partofcpu C:|Users|user pc|Project|partofcpu.v/p4 - register_16/r9 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/d1 - demux_18</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r1 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r2 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r3 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r4 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r5 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r6 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r7 - ram64</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/d1 - demux_18</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/d1 - demux_18</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r1 - reg_1bit/r1 - mux21</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r1 - reg_1bit/r2 - dff</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r10 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r11 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r12 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r13 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r14 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r15 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r16 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r2 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r3 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r4 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r5 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r6 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r7 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r8 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r1 - register_16/r9 - reg_1bit</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r2 - register_16</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r3 - register_16</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r4 - register_16</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r5 - register_16</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r6 - register_16</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r7 - register_16</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r1 - ram8/r8 - register_16</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r2 - ram8</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r3 - ram8</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r4 - ram8</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r5 - ram8</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r6 - ram8</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r7 - ram8</ClosedNode>
+         <ClosedNode>/ram512 C:|Users|user pc|Project|ram512.v/r8 - ram64/r8 - ram8</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/d1 - demux16_18</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/d1 - demux16_18/d1 - demux_16_21</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/d1 - demux16_18/d2 - demux_16_14</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/d1 - demux16_18/d3 - demux_16_14</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/m1 - mux16_81</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/r1 - register_16</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/r2 - register_16</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/r3 - register_16</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/r4 - register_16</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/r5 - register_16</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/r6 - register_16</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/r7 - register_16</ClosedNode>
+         <ClosedNode>/ram8 C:|Users|user pc|Project|ram8.v/r8 - register_16</ClosedNode>
+         <ClosedNode>/reg_1bit C:|Users|user pc|Project|register_1bit.v</ClosedNode>
+         <ClosedNode>/register_16 C:|Users|user pc|Project|register_16bit.v</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/d1 - demux_18</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/m1 - mux16_81/m1 - mux_16_41</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/m1 - mux16_81/m2 - mux_16_41</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/m1 - mux16_81/m3 - mux16_21</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/r1 - ram64</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/r2 - ram64</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/r3 - ram64</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/r4 - ram64</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/r5 - ram64</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/r6 - ram64</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/r7 - ram64</ClosedNode>
+         <ClosedNode>/rom512 C:|Users|user pc|Project|rom512.v/r8 - ram64</ClosedNode>
+         <ClosedNode>/rom_sel_block C:|Users|user pc|Project|rom_sel_block.v</ClosedNode>
+         <ClosedNode>/rom_sel_block E:|Project|rom_sel_block.v</ClosedNode>
+         <ClosedNode>/xor_gate C:|Users|user pc|Project|xor_gate.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>c3 - rom_add (E:/Project/rom_add.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e1000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e10000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>c3 - rom_add (E:/Project/rom_add.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001270000009701000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

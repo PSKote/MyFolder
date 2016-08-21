@@ -1,0 +1,28 @@
+Command line:
+   newalu_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64563
+
+Fri Mar 11 22:10:14 2016
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 363.086 Meg
+
+ Total Signals          : 4232
+ Total Nets             : 936
+ Total Signal Drivers   : 860
+ Total Blocks           : 1139
+ Total Primitive Blocks : 851
+ Total Processes        : 861
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 1016
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 363.086 Meg
+
+Fri Mar 11 22:13:40 2016
+

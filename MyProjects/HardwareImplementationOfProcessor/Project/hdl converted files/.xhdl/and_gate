@@ -1,0 +1,32 @@
+[%General]
+%3Csource%3E=
+%3Cfilename%3E=E:/Project/hdl converted files/and_gate.vhd
+%3Cclass%3E=108
+%3Cbasename%3E=and_gate
+%3Cpackage%3E=false
+
+[Data]
+%3CgenericOrder%3E=@Invalid()
+%3CportOrder%3E=out, a, b
+%3Ccompdecl%3E="COMPONENT and_gate IS\n<indent>\nPORT (\n<indent>\nout_xhdl1<tab:1> : OUT STD_LOGIC;\na<tab:1> : IN STD_LOGIC;\nb<tab:1> : IN STD_LOGIC\n<outdent>\n);\n<outdent>\nEND COMPONENT;\n\n"
+a\category=114
+a\port=1
+a\alias=a
+and_gate\category=108
+and_gate\port=0
+and_gate\alias=and_gate
+b\category=114
+b\port=1
+b\alias=b
+n1\category=106
+n1\port=0
+n1\alias=n1
+n2\category=106
+n2\port=0
+n2\alias=n2
+out\category=114
+out\port=2
+out\alias=out_xhdl1
+w1\category=114
+w1\port=0
+w1\alias=w1

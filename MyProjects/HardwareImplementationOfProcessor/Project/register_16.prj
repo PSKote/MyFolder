@@ -1,0 +1,6 @@
+verilog work "NAND_gate.v"
+verilog work "NOT_gate.v"
+verilog work "mux2x1.v"
+verilog work "dflipflop.v"
+verilog work "register_1bit.v"
+verilog work "register_16bit.v"

@@ -1,0 +1,9 @@
+vhdtdtfi -lib work {C:/Users/user pc/Project/register_16bit.v} -lang verilog -prj Project -o register_16.spl -module register_16 -template C:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e register_16.spl {C:/Users/user pc/Project/register_16.sym} 
+xst -intstyle ise -ifn "C:/Users/user pc/Project/register_16.xst" -ofn "C:/Users/user pc/Project/register_16.syr" 
+xst -intstyle ise -ifn "E:/Project/register_16.xst" -ofn "E:/Project/register_16.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm mux16_81.bmm -p xc3s100e-vq100-5 register_16.ngc register_16.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o register_16_map.ncd register_16.ngd register_16.pcf 
+par -w -intstyle ise -ol high -t 1 register_16_map.ncd register_16.ncd register_16.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml register_16.twx register_16.ncd -o register_16.twr register_16.pcf 
+xst -intstyle ise -ifn "E:/Project/register_16.xst" -ofn "E:/Project/register_16.syr" 

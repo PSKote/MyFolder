@@ -1,0 +1,215 @@
+/* ###################################################################
+**     Filename    : main.c
+**     Project     : TFC_Code
+**     Processor   : MKL25Z128VLK4
+**     Version     : Driver 01.01
+**     Compiler    : GNU C Compiler
+**     Date/Time   : 2015-03-27, 17:42, # CodeGen: 0
+**     Abstract    :
+**         Main module.
+**         This module contains user's application code.
+**     Settings    :
+**     Contents    :
+**         No public methods
+**
+** ###################################################################*/
+/*!
+** @file main.c
+** @version 01.01
+** @brief
+**         Main module.
+**         This module contains user's application code.
+*/         
+/*!
+**  @addtogroup main_module main module documentation
+**  @{
+*/         
+/* MODULE main */
+
+
+/* Including needed modules to compile this module/procedure */
+#include "Cpu.h"
+#include "Events.h"
+#include "LSC_ADC.h"
+#include "AdcLdd1.h"
+#include "LSC_SI.h"
+#include "BitIoLdd1.h"
+#include "LSC_CLK.h"
+#include "BitIoLdd2.h"
+#include "SW_A.h"
+#include "BitIoLdd3.h"
+#include "HBRIDGE_ENABLE.h"
+#include "BitIoLdd4.h"
+#include "MOTOR_A1.h"
+#include "PwmLdd1.h"
+#include "TU1.h"
+#include "MOTOR_A2.h"
+#include "PwmLdd2.h"
+#include "MOTOR_B1.h"
+#include "PwmLdd3.h"
+#include "MOTOR_B2.h"
+#include "PwmLdd4.h"
+/* Including shared modules, which are used for whole project */
+#include "PE_Types.h"
+#include "PE_Error.h"
+#include "PE_Const.h"
+#include "IO_Map.h"
+
+/* User includes (#include below this line is not maintained by Processor Expert) */
+
+/*lint -save  -e970 Disable MISRA rule (6.3) checking. */
+int main(void)
+/*lint -restore Enable MISRA rule (6.3) checking. */
+{
+  /* Write your local variable definition here */
+	  word LSC[128];		//Array for pixel storage
+	  int i; 				//to make the loop for checking the dip
+	  int flag_Centre; 		//to check if the car is in centre
+	  int flag_turn_right; 	//to check if car is towards left
+	  int flag_turn_left;	//to check if car is towards right
+	  int Count;			//for pixel count 
+  /*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
+  PE_low_level_init();
+  /*** End of Processor Expert internal initialization.                    ***/
+
+  /* Write your code here */
+  
+  while( SW_A_GetVal() ) ;		//to start
+  HBRIDGE_ENABLE_SetVal();		// To enable the HBridge and to give PWM to Motor
+  
+  /* For example: for(;;) { } */
+  
+  	 //Main loop (super loop)
+     for(;;)
+     {
+   	  
+   	  //ON the motors
+   	  MOTOR_A1_SetDutyMS(100);
+   	  MOTOR_A2_SetDutyMS(0);
+   	  MOTOR_B1_SetDutyMS(100);
+   	  MOTOR_B2_SetDutyMS(0);
+   	  
+   	  // Accessing values from line scan camera
+   	  LSC_SI_SetVal() ;							//positive pulse of SI 
+   	  for(i=0xF;i--;) ;
+   	  LSC_CLK_SetVal() ;						//positive pulse of Clock
+   	  for(i=0xF;i--;) ;
+   	  LSC_SI_ClrVal() ;							//negative pulse of SI
+   	  for( Count=128; Count--;)					//store the values of pixel from line scan camera to an array
+   	  	  {
+   	  			LSC_CLK_SetVal() ;							//positive pulse of Clock
+   	  			for(i=0xF;i--;) ;
+   	  			LSC_ADC_Measure(TRUE) ;						//Start measuring analogue values from LSC
+   	  			LSC_ADC_GetChanValue16(0, & LSC[Count]) ;	//Get the values from ADC channel zero and store it an array
+   	  			LSC_CLK_ClrVal() ;							//negative pulse of clock
+   	  			for(i=0xF;i--;) ;
+   	  	  }
+   	  
+   	  //to check the left dip exists between 10th and 15th pixel then rotate fast at high speed, only if dip exists then execute. 
+   	  for(i=10;i<16;i++)
+   	  {
+   		  if(LSC[i+1]<LSC[i])
+   		  {
+   			  if(LSC[i+2]<LSC[i+1])
+   			  {
+   				  if(((LSC[i]+LSC[i+1]+LSC[i+2]+LSC[i+3]+LSC[i+4]+LSC[i+5])/6)<(LSC[i] && LSC[i+5]))
+   				  {
+   					  	  MOTOR_A1_SetDutyMS(100);
+   					 	  MOTOR_A2_SetDutyMS(0);
+   					 	  MOTOR_B1_SetDutyMS(100);
+   					 	  MOTOR_B2_SetDutyMS(0);  
+   					 	  flag_Centre=0;
+   					 	  break;
+   				  }
+   			  }
+   		  }
+   	  }
+   	  
+   	  //if car is in centre then again scan the value
+   	  if(~flag_Centre)
+   	  {
+   		  continue;
+   	  }
+   	  
+   	  // left dip does not exist between 10 and 15. now check if the dip exist between 16 and 64 if it exists then turn towards right.
+   	 
+   	  for(i=16;i<65;i++)
+   	 	  {
+   	 		  if(LSC[i+1]<LSC[i])
+   	 		  {
+   	 			  if(LSC[i+2]<LSC[i+1])
+   	 			  {
+   	 				  if(((LSC[i]+LSC[i+1]+LSC[i+2]+LSC[i+3]+LSC[i+4]+LSC[i+5])/6)<(LSC[i] && LSC[i+5]))
+   	 				  {
+   	 					  	  MOTOR_A1_SetDutyMS(100);
+   	 					 	  MOTOR_A2_SetDutyMS(0);
+   	 					 	  MOTOR_B1_SetDutyMS(100);
+   	 					 	  MOTOR_B2_SetDutyMS(25);  
+   	 					 	  flag_turn_right=0;
+   	 					 	  break;
+   	 				  }
+   	 			  }
+   	 		  }
+   	 	  }
+   	  
+   	  
+   	  // if car is in left then turn right and scan next value.
+   	  if(~flag_turn_right)
+   	  {
+   		  continue;
+   	  }
+   	  
+   	  // if the dip is not found in the hand side, then checking in the right hand side.
+   	 	  for(i=65;i<114;i++)
+   	 	 	  {
+   	 	 		  if(LSC[i+1]<LSC[i])
+   	 	 		  {
+   	 	 			  if(LSC[i+2]<LSC[i+1])
+   	 	 			  {
+   	 	 				  if(((LSC[i]+LSC[i+1]+LSC[i+2]+LSC[i+3]+LSC[i+4]+LSC[i+5])/6)<(LSC[i] && LSC[i+5]))
+   	 	 				  {
+   	 	 					  	  MOTOR_A1_SetDutyMS(100);
+   	 	 					 	  MOTOR_A2_SetDutyMS(25);
+   	 	 					 	  MOTOR_B1_SetDutyMS(100);
+   	 	 					 	  MOTOR_B2_SetDutyMS(0);
+   	 	 					 	  flag_turn_left=0;
+   	 	 					 	  break;
+   	 	 				  }
+   	 	 			  }
+   	 	 		  }
+   	 	 	  }
+   	 	  	  if(~flag_turn_left)
+   	 	 	  {
+   	 	 		  continue;
+   	 	 	  }
+   	 	  	  
+   	 	  	  // if the dip is not found anywhere, then reverse to find the track
+   			  	  MOTOR_A1_SetDutyMS(0);
+   			 	  MOTOR_A2_SetDutyMS(100);
+   			 	  MOTOR_B1_SetDutyMS(0);
+   			 	  MOTOR_B2_SetDutyMS(100);
+   	 	  	  
+   	 	  }
+  /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
+  /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/
+  #ifdef PEX_RTOS_START
+    PEX_RTOS_START();                  /* Startup of the selected RTOS. Macro is defined by the RTOS component. */
+  #endif
+  /*** End of RTOS startup code.  ***/
+  /*** Processor Expert end of main routine. DON'T MODIFY THIS CODE!!! ***/
+  for(;;){}
+  /*** Processor Expert end of main routine. DON'T WRITE CODE BELOW!!! ***/
+} /*** End of main routine. DO NOT MODIFY THIS TEXT!!! ***/
+
+/* END main */
+/*!
+** @}
+*/
+/*
+** ###################################################################
+**
+**     This file was created by Processor Expert 10.3 [05.09]
+**     for the Freescale Kinetis series of microcontrollers.
+**
+** ###################################################################
+*/

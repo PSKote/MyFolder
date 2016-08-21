@@ -1,0 +1,73 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/user pc/Project/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/user pc/Project/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "NAND_gate.v" in library work
+Compiling verilog file "NOT_gate.v" in library work
+Module <NAND_gate> compiled
+Compiling verilog file "or_gate.v" in library work
+Module <NOT_gate> compiled
+Compiling verilog file "mux2x1.v" in library work
+Module <or_gate> compiled
+Compiling verilog file "halfadder.v" in library work
+Module <mux21> compiled
+Compiling verilog file "dflipflop.v" in library work
+Module <halfadder> compiled
+Compiling verilog file "register_1bit.v" in library work
+Module <dff> compiled
+Compiling verilog file "fulladder.v" in library work
+Module <reg_1bit> compiled
+Compiling verilog file "AND_gate.v" in library work
+Module <fulladder> compiled
+Compiling verilog file "register_16bit.v" in library work
+Module <and_gate> compiled
+Compiling verilog file "or8_gate.v" in library work
+Module <register_16> compiled
+Compiling verilog file "notgate_16bit.v" in library work
+Module <or8_gate> compiled
+Compiling verilog file "mux2x1_16bit.v" in library work
+Module <notgate_16> compiled
+Compiling verilog file "mux16_21.v" in library work
+Module <mux_16_21> compiled
+Compiling verilog file "fulladder_16bit.v" in library work
+Module <mux16_21> compiled
+Compiling verilog file "andgate_16bit.v" in library work
+Module <fa_16> compiled
+Compiling verilog file "programcounter.v" in library work
+Module <and_16> compiled
+Compiling verilog file "newcpu.v" in library work
+Module <pc> compiled
+Compiling verilog file "partofcpu.v" in library work
+Module <newalu> compiled
+Module <partofcpu> compiled
+No errors in compilation
+Analysis of file <"partofcpu.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> 
+
+Total memory usage is 217168 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

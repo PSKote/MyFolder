@@ -1,0 +1,47 @@
+[%General]
+%3Csource%3E=
+%3Cfilename%3E=E:/Project/hdl converted files/fulladder.vhd
+%3Cclass%3E=108
+%3Cbasename%3E=fulladder
+%3Cpackage%3E=false
+
+[Data]
+%3CgenericOrder%3E=@Invalid()
+%3CportOrder%3E=sum, carry, a, b, c
+%3Ccompdecl%3E="COMPONENT fulladder IS\n<indent>\nPORT (\n<indent>\nsum<tab:1> : OUT STD_LOGIC;\ncarry<tab:1> : OUT STD_LOGIC;\na<tab:1> : IN STD_LOGIC;\nb<tab:1> : IN STD_LOGIC;\nc<tab:1> : IN STD_LOGIC\n<outdent>\n);\n<outdent>\nEND COMPONENT;\n\n"
+a\category=114
+a\port=1
+a\alias=a
+b\category=114
+b\port=1
+b\alias=b
+c\category=114
+c\port=1
+c\alias=c
+carry\category=114
+carry\port=2
+carry\alias=carry
+f1\category=106
+f1\port=0
+f1\alias=f1
+f2\category=106
+f2\port=0
+f2\alias=f2
+f3\category=106
+f3\port=0
+f3\alias=f3
+fulladder\category=108
+fulladder\port=0
+fulladder\alias=fulladder
+sum\category=114
+sum\port=2
+sum\alias=sum
+w1\category=114
+w1\port=0
+w1\alias=w1
+w2\category=114
+w2\port=0
+w2\alias=w2
+w3\category=114
+w3\port=0
+w3\alias=w3
