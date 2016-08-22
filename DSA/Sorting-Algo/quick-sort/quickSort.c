@@ -24,7 +24,7 @@ int partition (int *a, int l ,int r, int p)
 	i++;
 	j--;
 	}
-	return j;
+	return j+1;
 }
 
 void quicksort(int *a, int l, int r)
