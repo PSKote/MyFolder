@@ -6,15 +6,21 @@
 #include <math.h>
 
 int first, last;
-int N[1000000],l = 1000000;
+int N[10],l = 10;
 
 int partition(int *N, int l, int r, int p){
 	int i=l, j=r;
 	while (i<=j){
-		while (N[i] <= p)
+		while ((N[i] <= p) && (i <= r) )
+		{
 			i++;
-		while (N[j] > p)
+			//printf("i= %d\t", i);
+		}
+		while ((N[j] > p) && (j >= l) )
+		{
 			j--;
+			//printf("j= %d\t", j);
+		}
 		if (i <= j){
 			//swap(N[j], N[i]);
 			int temp;
@@ -25,18 +31,33 @@ int partition(int *N, int l, int r, int p){
 		i++; 
 		j--;
 	}
+	return j+1;
 }
 
 int rank(int *N, int i, int j, int r){
-	int p = rand() % (j-i);
+	//printf("%d\t", j);
+	//printf("%d\t", i);
+	int p = rand() % (j-i) + i;
+	//printf("%d\t", p);
 	int pivot = N[p];
-	k = partition (N, i, j, pivot);
+	//printf("%d\t", pivot);
+	int k = partition (N, i, j, pivot);
+	//printf("%d\t", k);
 	if (r == j-k+1)
+	{
+		//printf("Hell0ret\n");
 		return N[p];
+	}
 	else if (r < j-k+1)
+	{
+		//printf("Hell01\n");
 		rank(N, k+1, j, r);
+	}
 	else
-		rank(N, i, k, (r-j+k));
+	{
+		//printf("Hell02\n");
+		rank(N, i, k, (r-j+k));		
+	}
 }
 
 int main()
