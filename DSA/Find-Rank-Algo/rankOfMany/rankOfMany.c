@@ -28,17 +28,17 @@ int partition(int *N, int l, int r, int p){
 }
 
 int goodpivot (int *N, int i, int j){
-	int num, dig = 0, i=0;
+	int num, dig = 0;
 	int swap, c, d;
 	//bubble sort group of 5 numbers
 	while (dig<1000000){
-		for (c = dig ; c < ( dig+5 ); c++)
+		for (c = dig ; c < ( dig+4 ); c++)
   		{
-    			for (d = dig ; d < (dig+5-c); d++)
+    			for (d = dig ; d < (dig+4-c); d++)
     			{
       				if (N[d] > N[d+1]) 
       				{
-        				swap       = N[d];
+        				swap   = N[d];
        					N[d]   = N[d+1];
         				N[d+1] = swap;
       				}
@@ -54,7 +54,17 @@ int goodpivot (int *N, int i, int j){
 		N[num] = temp;
 		i++;
 	}
-	return N[i/2];
+	int median = i;
+	for (c=0; c<median; c++)
+	{
+		for (d=0; d<median-c-1; d++)
+		{
+        		swap   = N[d];
+       			N[d]   = N[d+1];
+     			N[d+1] = swap;			
+		}
+	}
+	return N[median/2];
 }
 
 int rank(int *N, int i, int j, int r){
