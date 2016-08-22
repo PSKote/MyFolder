@@ -6,7 +6,7 @@
 #include <math.h>
 
 int first, last;
-int N[10],l = 10;
+int N[1000000],l = 1000000;
 
 int partition(int *N, int l, int r, int p){
 	int i=l, j=r;

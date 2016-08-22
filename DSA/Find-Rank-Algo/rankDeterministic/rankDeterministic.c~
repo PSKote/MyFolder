@@ -6,14 +6,14 @@
 #include <math.h>
 
 int first, last;
-int N[1000000],l = 1000000;
+int N[10],l = 10; //1000000
 
 int partition(int *N, int l, int r, int p){
 	int i=l, j=r;
 	while (i<=j){
-		while (N[i] <= p)
+		while ((N[i] <= p) && (i <= r) )
 			i++;
-		while (N[j] > p)
+		while ((N[j] > p) && (j >= l) )
 			j--;
 		if (i <= j){
 			//swap(N[j], N[i]);
@@ -25,14 +25,15 @@ int partition(int *N, int l, int r, int p){
 		i++; 
 		j--;
 	}
+	return j+1;
 }
 
 int goodpivot (int *N, int i, int j){
 	int num, dig = 0;
-	int swap, c, d;
+	int swap, c, d, z=0;
 	//bubble sort group of 5 numbers
-	while (dig<1000000){
-		for (c = dig ; c < ( dig+4 ); c++)
+	while (dig<10){	//1000000
+		for (c = dig ; c < ( dig+5 ); c++)
   		{
     			for (d = dig ; d < (dig+4-c); d++)
     			{
@@ -47,36 +48,53 @@ int goodpivot (int *N, int i, int j){
 		dig = dig + 5;	
 	}
 
-	for (num=0; num<1000000; num=num+5){
+	for (num=0; num<10; num=num+5){		//1000000
 		int temp;
 		temp = N[2+num];
 		N[2+num] = N[num];
 		N[num] = temp;
-		i++;
+		z++;
 	}
-	int median = i;
+	int median = z-1;
 	for (c=0; c<median; c++)
 	{
-		for (d=0; d<median-c; d++)
+		for (d=0; d<median-c-1; d++)
 		{
-        		swap   = N[d];
-       			N[d]   = N[d+1];
-     			N[d+1] = swap;			
+			if (N[d] > N[d+1])
+			{
+        			swap   = N[d];
+       				N[d]   = N[d+1];
+     				N[d+1] = swap;	
+			}		
 		}
 	}
+	printf("median = %d\t", median/2);
 	return N[median/2];
 }
 
 int rank(int *N, int i, int j, int r){
 	//logic to pick a good pivot
+	printf("%d\t", j);
+	printf("%d\t", i);
 	int pivot = goodpivot (N, i, j);
+	printf("%d\t", pivot);
 	int k = partition (N, i, j, pivot);
+	printf("%d\t", k);
 	if (r == j-k+1)
-		return N[pivot];
+	{
+		printf("Hell0ret\n");
+		return pivot;
+	}
 	else if (r < j-k+1)
+	{
+		printf("Hell01\n");
 		rank(N, k+1, j, r);
+	}
 	else
+	{
+		printf("Hell02\n");
 		rank(N, i, k, (r-j+k));
+	}
 }
 
 int main()
@@ -97,6 +115,6 @@ int main()
 	scanf("%d", &r);
 
 	num = rank(N, first, last, r);
-	printf ("The number is: %d", num);
+	printf ("The number is: %d\n", num);
 	return 0;
 }
