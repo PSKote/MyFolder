@@ -1,4 +1,0 @@
-This list is incomplete.
-
-- Python bindings
-- Finding GTK

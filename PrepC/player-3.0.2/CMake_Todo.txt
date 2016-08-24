@@ -1,1 +1,0 @@
-- Java bindings for core, xdr, tcp, etc

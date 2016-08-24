@@ -1,7 +1,0 @@
-Makefile
-Makefile.in
-playerdrivers.pc
-.libs
-.deps
-*.la
-*.lo

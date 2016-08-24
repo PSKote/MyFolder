@@ -1,6 +1,0 @@
-IF (HAVE_STL)
-    PLAYERDRIVER_OPTION (localbb build_localbb ON)
-ELSE (HAVE_STL)
-    PLAYERDRIVER_OPTION (localbb build_localbb OFF "STL not found.")
-ENDIF (HAVE_STL)
-PLAYERDRIVER_ADD_DRIVER (localbb build_localbb SOURCES localbb.cpp)

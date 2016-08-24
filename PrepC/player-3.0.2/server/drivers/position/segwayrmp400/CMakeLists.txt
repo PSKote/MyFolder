@@ -1,2 +1,0 @@
-PLAYERDRIVER_OPTION (segwayrmp400 build_segwayrmp400 ON)
-PLAYERDRIVER_ADD_DRIVER (segwayrmp400 build_segwayrmp400 SOURCES segwayrmp400.cc)

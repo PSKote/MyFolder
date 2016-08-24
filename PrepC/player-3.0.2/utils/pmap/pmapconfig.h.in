@@ -1,2 +1,0 @@
-#cmakedefine OPENGL_FOUND 1
-#cmakedefine GLUT_FOUND 1

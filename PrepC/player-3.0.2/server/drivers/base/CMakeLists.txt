@@ -1,1 +1,0 @@
-PLAYERDRIVER_ADD_EXTRA (base SOURCES imagebase.cc)
