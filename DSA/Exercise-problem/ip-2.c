@@ -27,15 +27,15 @@ int mergeip(int *a, int i, int j, int k)
 
 int ip(int *a, int i, int j)
 {
-	int k,c1,c3;
+	int k,c3;
 	if (i<j)
 	{
 		k=(i+j)/2;
 		ip (a, i, k);
 		ip (a, k+1, j);
 		c3 = mergeip(a, i, j, k);
- 		//c1 = c1+c3;
-		//printf("c1=%d\t", c1);
+ 		c1 = c1+c3;
+		printf("c1=%d\t", c1);
 		return c3;
 	}
 }
@@ -44,10 +44,10 @@ int ip(int *a, int i, int j)
 
 int main()
 {
-	int a[10] = {4, 6 ,7, 1, 2, 5};
+	int a[2] = {4, 6}; // ,7, 1, 2, 5, 9, 3, 0, 11
 	int count=0;
 	int first = 0;
-	int last = 9;
+	int last = 1;
 	count = ip(a, first , last);
 	printf("The number of inversion pairs are %d\n", count);
 }
