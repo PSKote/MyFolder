@@ -1,0 +1,21 @@
+/*Find the maximum sub-array. theta(n^2)*/
+
+#include<stdio.h>
+
+int main()
+{
+	int a[10] = {10};
+	int i, j, max = 0, sum = 0;
+	int n = 1;
+	for(i=0; i<n; i++)
+	{
+		sum = 0;
+		for (j=i; j<n; j++)
+		{
+			sum = sum + a[j];
+			if(sum > max)
+				max = sum;
+		}
+	}
+	printf("The max. sub-array is %d\n", max);
+}
