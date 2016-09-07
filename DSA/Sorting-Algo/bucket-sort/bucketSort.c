@@ -17,15 +17,24 @@ int main()
 	for (i=1; i<k; i++)
 	{
 		b[i] = b[i-1] + b[i];
-		printf("b=%d\n", b[i]);
 	}
 	for (i=n-1; i>=0; i--)
 	{
 		p = a[i]/100;
-		c[b[(p%10)-1]] = a[i];
-		printf("b=%d, c=%d\n", b[(p%10)-1], c[b[(p%10)-1]]);
+		c[b[(p%10)]-1] = a[i];
 		b[p%10]--;
 	}
+	for (i=0; i<n; i++)
+	{
+		a[i] = c[i];
+	}
+
+	for (i=1; i<n; i++)
+	{
+		if((a[i-1]/100) == (a[i]/100))
+			buc[i] = a[i-1];
+	}
+
 	for (i=0; i<n; i++)
 	{
 		printf("%d\t", c[i]);

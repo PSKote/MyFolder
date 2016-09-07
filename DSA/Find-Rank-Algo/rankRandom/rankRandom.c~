@@ -37,7 +37,7 @@ int partition(int *N, int l, int r, int p){
 int rank(int *N, int i, int j, int r){
 	//printf("%d\t", j);
 	//printf("%d\t", i);
-	int p = rand() % (j-i) + i;
+	int p = rand() % (j-i+1) + i;
 	//printf("%d\t", p);
 	int pivot = N[p];
 	//printf("%d\t", pivot);
@@ -69,6 +69,9 @@ int main()
 	{
 		fscanf(fp,"%1d",&N[i]);
 	}
+
+	//int N[7] = {4, 3, 26, 122, 56, 202, 900};
+	//int l=7;
 
 	first = 0;
 	last = l - 1;

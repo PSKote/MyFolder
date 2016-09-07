@@ -1,4 +1,4 @@
-/*Program to perform Radix Sort. theta(nd)*/
+/*Program to perform Radix Sort. theta(nd). d - no. of digits*/
 
 #include<stdio.h>
 #include<math.h>
@@ -22,8 +22,12 @@ int main()
 		for (i=n-1; i>=0; i--)
 		{
 			p = a[i]/pow(10,j);
-			c[b[(p%10)-1]] = a[i];
-			b[p%10]--;
+			c[b[(p%10)]-1] = a[i];
+			b[(p%10)]--;
+		}
+		for (i=0; i<n; i++)
+		{
+			a[i] = c[i]
 		}
 	}
 	for (i=0; i<n; i++)

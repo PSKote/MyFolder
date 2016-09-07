@@ -1,16 +1,18 @@
-Excercise-problem/max6-2.c			**********
-bucket analogy - majority-4.c			**********
-rank analogy for majority - majority-3.c	**********
-check find rank by random method
-rank by deterministic
-rank of array
-Maximum sub-array kadane's algorithm
-maximum sub array algo 4. how to consider j>=i
-max. sub array atleast
-max. sub array atmost
+Excercise-problem/max6-2.c - O(n)					
+rank analogy for majority - majority-3.c		
+rank by deterministic					(segmentation fault)
+rank of array						(infinite loop)
+max. sub array atleast					
+max. sub array atmost					
 MDS
-min. in 'k' values given - O(n)
-smallest sub-array containing all terms
-counting sort
-radix sort
-bucket sort
+min. in 'k' values given - O(n)				
+smallest sub-array containing all terms			(not giving min. sub-array which is at the end)
+bucket sort						(don't know to create a bucket)
+Linked List						(write functions)
+Doubly Linked List					(write functions)
+Binary Heap/ Tree
+Stack
+Queue
+Heap Sort by build heap
+Find smallest k numbers in array - 3 algos		***********
+Fibonacci 						(Not giving output)			 
