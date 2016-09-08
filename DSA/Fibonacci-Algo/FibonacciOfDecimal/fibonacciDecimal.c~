@@ -5,85 +5,86 @@
 #include <ctype.h>
 #include <math.h>
 
-int first, last;
-int N[3],l = 3;
-
-int (*MM(int A[][2], int B[][2]))[2]{  
-
-	printf("Checking");
+void mult(int a[][2], int b[][2])
+{
+	int c[2][2];
 	
-	int r,s,t,u;
-	static int C[2][2]; 
-	
-	r = (A[0][0] * B[0][0] + A[0][1] * B[1][0])%100;
-	s = (A[0][0] * B[0][1] + A[0][1] * B[1][1])%100;
-	t = (A[1][0] * B[0][0] + A[1][1] * B[1][0])%100;
-	u = (A[1][0] * B[0][1] + A[1][1] * B[1][1])%100;
-	
-	C[0][0] = r;
-	C[0][1] = s;
-	C[1][0] = t;
-	C[1][1] = u;		
-	
-	return C;
-}
-
-void divideby2(int *N){ // integer array passed
-	int i =  first;
-	int j = last, temp = 0, t;
-	while(i <= j)
+	for(int i =0; i< 2; i++)
 	{
-		t = N[i];
-		if(((temp*10 + t) / 2) == 0){
-			if( i ==  first)
-				first++;	
-			temp = t % 2;	
-			N[i] = 0;
-		} 
-		else{
-			N[i] = (temp*10 + t) / 2;
-			temp = (temp*10 + t) % 2; 
-						
+		for(int j=0; j < 2; j++)
+		{
+			int sum =0;
+			for(int k=0; k < 2; k++)
+			{
+				sum = sum + (a[i][k] * b[k][j]);
+			}
+			c[i][j] = sum%100;
 		}
-		i++;				
-	}	
+	}
+
+	for(int i =0; i< 2; i++)
+	{
+		for(int j=0; j < 2; j++)
+		{
+			a[i][j] = c[i][j];
+		}
+	}
+
+	//return a;
+	
+} 
+
+int divideby2(int n[])
+{
+	int rem=0, i=0, index=0;
+	int len=3; //size of N that is passed from main
+	while(i<len) //size of N that is passed from main
+	{
+		rem=rem*10+n[i];
+		n[i]=rem/2;
+		rem=rem%2;
+		i++;
+	}
+
+/*	for(i=0; i<len; i++)
+		printf("%d\t",n[i]);
+	printf("\n");*/
+
+	while((index<len) && (n[index] == 0))
+	{
+		index++;
+		//printf("Index=%d, n[Index]=%d", index, n[index]);
+	}
+	return index;
 }
 
 int main()
 {
-	FILE *fp;
-	fp = fopen("input","r");
-	int i=0;
-	for(i = 0; i < l; i++)
-	{
-		fscanf(fp,"%1d",&N[i]);
+	int N[1000000];
+	int size=1000000;
+  	for (int i = 0; i <= 1000000; i++) {
+    		N[i] = rand() % 10;
 	}
 
-	for(i = 0; i < l; i++)
+	//int N[3] = {3, 0, 5};
+	//int size = 3;
+	
+	int Y[2][2]={{1,0},{0,1}};
+	int A[2][2]={{1,1},{1,0}};
+
+	int (*y)[2], (*a)[2];
+	y=Y;
+	a=A;
+	
+	int index=0;
+	while (index<size)
 	{
-		printf("%1d",N[i]);
+		if ((N[size-1]%2) == 1)
+			mult(y,a);
+		mult(a,a);
+		
+		index = divideby2(N);
 	}
+	printf("Fibonacci = %d\n", y[1][0]);
+}
 
-	first = 0;
-	last = l - 1;
-
-	int A[2][2] = {{1,1},{1,0}};
-	int Y[2][2] = {{1,0},{0,1}};
-	int (*y)[2],(*x)[2];
-
-	x = A;
-	y = Y;
-
-	while(N[first] > 0) 
-	{
-		if(N[last] != 0) 
-			y= MM(y,x);
-		x = MM(x,x);
-		divideby2(N);
-	}
-
-	printf(" %d", y[1][0]);
-	printf("\n");
-	fclose(fp);
-	return 0;
-}	

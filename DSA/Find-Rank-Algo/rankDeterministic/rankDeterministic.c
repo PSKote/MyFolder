@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+
 	void swap(int a[], int l, int r);
 	int findRank(int a[], int i, int j, int r);
 	// ******************************** SELECTION SORT *******************************

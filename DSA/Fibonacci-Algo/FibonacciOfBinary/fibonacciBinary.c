@@ -1,61 +1,66 @@
-/**/
+/*Find Fibonacci numbers and mod 100. input a 10^6 binary number and fibonacci mod 100 upto that number*/
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <math.h>
 
-int first, last;
-int N[1000000],l = 1000000;
+int (*mult(int a[][2], int b[][2]))[2]
+{
+	int c[2][2];
+	
+	for(int i =0; i< 2; i++)
+	{
+		for(int j=0; j < 2; j++)
+		{
+			int sum =0;
+			for(int k=0; k < 2; k++)
+			{
+				sum = sum + (a[i][k] * b[k][j]);
+			}
+			c[i][j] = sum%100;
+		}
+	}
 
-int (*MM(int A[][2], int B[][2]))[2]{  
+	for(int i =0; i< 2; i++)
+	{
+		for(int j=0; j < 2; j++)
+		{
+			a[i][j] = c[i][j];
+		}
+	}
+
+	return a;
 	
-	int r,s,t,u;
-	static int C[2][2]; 
-	
-	r = (A[0][0] * B[0][0] + A[0][1] * B[1][0])%100;
-	s = (A[0][0] * B[0][1] + A[0][1] * B[1][1])%100;
-	t = (A[1][0] * B[0][0] + A[1][1] * B[1][0])%100;
-	u = (A[1][0] * B[0][1] + A[1][1] * B[1][1])%100;
-	
-	C[0][0] = r;
-	C[0][1] = s;
-	C[1][0] = t;
-	C[1][1] = u;		
-	
-	return C;
-}
+} 
 
 int main()
 {
-	FILE *fp;
-	fp = fopen("input","r");
-	int i=0;
-	for(i = 0; i < l; i++)
-	{
-		fscanf(fp,"%1d",&N[i]);
+	int N[1000000];
+	int size=1000000;
+  	for (int i = 0; i < 1000000; i++) {
+    		N[i] = rand() % 2;
 	}
 
-	first = 0;
-	last = l - 1;
+	//int N[3] = {0,1,1};
+	//int size=3;
+	
+	int Y[2][2]={{1,0},{0,1}};
+	int A[2][2]={{1,1},{1,0}};
 
-	int A[2][2] = {{1,1},{1,0}};
-	int Y[2][2] = {{1,0},{0,1}};
-	int (*y)[2],(*x)[2];
-
-	x = A;
-	y = Y;
-
-	while(first < last) 
+	int (*y)[2], (*a)[2];
+	y=Y;
+	a=A;
+	
+	int index=size-1;
+	while (index>=0)
 	{
-		if((N[last]%2) != 0) 
-			y= MM(y,x);
-		x = MM(x,x);
-		last--;
+		if ((N[index]%2) == 1)
+			y=mult(y,a);
+		a=mult(a,a);
+		
+		index--;
 	}
+	printf("Fibonacci = %d\n", y[1][0]);
+}
 
-	printf(" %d", y[1][0]);
-	printf("\n");
-	fclose(fp);
-	return 0;
-}	
