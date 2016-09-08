@@ -1,6 +1,6 @@
 Excercise-problem/max6-2.c - O(n)					
 rank analogy for majority - majority-3.c		
-rank by deterministic					(segmentation fault)
+rank by deterministic					(returning same value)
 rank of array						(infinite loop)
 max. sub array atleast					
 max. sub array atmost					

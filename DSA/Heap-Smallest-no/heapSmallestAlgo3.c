@@ -1,0 +1,89 @@
+/*Find the smallest k elements in a array. Read 2k elements. Find random pivot. If the rank of random pivot greater than k,  find pivot again. Else the value more than rank is not the candidate, then overwrite the next rank-2k elements from rank to 2k and repeat */
+
+#include<stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <math.h>
+
+int partition(int *N, int l, int r, int p){
+	int i=l, j=r;
+	while (i<=j){
+		while ((N[i] <= p) && (i <= r) )
+		{
+			i++;
+			//printf("i= %d\t", i);
+		}
+		while ((N[j] > p) && (j >= l) )
+		{
+			j--;
+			//printf("j= %d\t", j);
+		}
+		if (i <= j){
+			//swap(N[j], N[i]);
+			int temp;
+			temp = N[j];
+			N[j] = N[i];
+			N[i] = temp;
+		}
+		i++; 
+		j--;
+	}
+	return j+1;
+}
+
+int rank(int *N, int i, int j, int r){
+	//printf("%d\t", j);
+	//printf("%d\t", i);
+	int p = rand() % (j-i+1) + i;
+	//printf("%d\t", p);
+	int pivot = N[p];
+	//printf("%d\t", pivot);
+	int k = partition (N, i, j, pivot);
+	//printf("%d\t", k);
+	if ((r == j-k+1) || (r < j-k+1))
+	{
+		//printf("Hell0ret\n");
+		return j-k+1;
+	}
+	else
+	{
+		//printf("Hell02\n");
+		rank(N, i, k, (r-j+k));		
+	}
+}
+
+int main()
+{
+	int a[16]={17,7,2,34,19,0,64,0,73,35,5,1,8,88,4,6};
+	int k = 4;
+	int n=16, i, med;
+	int c[8];
+
+	for (int i = 0; i < 2*k; i++)
+	{
+		c[i]=a[i];
+	}
+
+	med=rank(c,0,2*k-1,k);
+
+	for (i = 2*k; i < n; i++)
+	{
+		for (int j = med+1; j <2*k ; j++)
+		{
+			if(i<n)
+			{
+				c[j] = a[i];
+				i++;
+			}
+		}
+		i--;
+		med=rank(c,0,2*k-1,k);
+	}
+
+	for(i=0; i<k; i++)
+	{
+		printf("%d\t", c[i]);
+	}
+	printf("\n");
+
+}

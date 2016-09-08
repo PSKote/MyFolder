@@ -1,4 +1,4 @@
-/*Find smallest k elements in a array. Create a max. heap with k numbers. Then compare the max. and go from k+1 to n. If the no. is less than max. replace with max. of heap and call max. heap again, else throw it. Space-O(k). Time- O(nlgk)*/
+/*Create a max. heap with k numbers. Then compare the max. and go from k+1 to n. If the no. is less than max. replace with max. of heap and call max. heap again, else throw it. Space-O(k). Time- O(nlgk)*/
 
 #include<stdio.h>
 

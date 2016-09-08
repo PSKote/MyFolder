@@ -1,4 +1,4 @@
-/*Find the smallest k elements in a array. Read 2k elements. Find the medians and then apply partition. The value more than k is not the candidate, then overwrite the next k elements from k to 2k again find median and repeat */
+/*Find the smallest k elements in a array. Read 2k elements. Find random pivot. If the rank of random pivot greater than k,  find pivot again. Else the value more than rank is not the candidate, then overwrite the next rank-2k elements from rank to 2k and repeat */
 
 #include<stdio.h>
 #include <stdlib.h>
@@ -40,15 +40,10 @@ int rank(int *N, int i, int j, int r){
 	//printf("%d\t", pivot);
 	int k = partition (N, i, j, pivot);
 	//printf("%d\t", k);
-	if (r == j-k+1)
+	if ((r == j-k+1) || (r < j-k+1))
 	{
 		//printf("Hell0ret\n");
-		return N[p];
-	}
-	else if (r < j-k+1)
-	{
-		//printf("Hell01\n");
-		rank(N, k+1, j, r);
+		return j-k+1;
 	}
 	else
 	{
@@ -73,7 +68,7 @@ int main()
 
 	for (i = 2*k; i < n; i++)
 	{
-		for (int j = k; j <2*k ; j++)
+		for (int j = med; j <2*k ; j++)
 		{
 			if(i<n)
 			{

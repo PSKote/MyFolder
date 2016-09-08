@@ -1,0 +1,25 @@
+int main()
+{
+/*	FILE *fp;
+	fp = fopen("input","r");
+	int i=0;
+	for(i = 0; i < l; i++)
+	{
+		fscanf(fp,"%1d",&N[i]);
+	}*/
+
+	int N[10] = {4, 3, 26, 122, 56, 202, 900, 25, 78, 90};
+	int l=10;
+
+	first = 0;
+	last = l - 1;
+
+	int r, num;
+	printf ("enter the rank=");
+	scanf("%d", &r);
+
+	num = findRank(N, first, last, r);
+	printf ("The number is: %d\n", N[num]);
+	//fclose(fp);
+	return 0;
+}

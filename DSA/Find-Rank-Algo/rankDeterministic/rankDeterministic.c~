@@ -1,103 +1,184 @@
-/*Find the numbeer with the given rank. Rank is given as input. Use derterministic Algorithm i.e., Pivot chosen is between n/4 to 3n/4*/
+#include<stdio.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <math.h>
-
-int rank(int *N, int i, int j, int r);
-
-int first, last;
-//int N[10],l = 10; //replace 1000000
-
-int partition(int *N, int l, int r, int p){
-	int i=l, j=r;
-	while (i<=j){
-		while ((N[i] <= p) && (i <= r) )
-			i++;
-		while ((N[j] > p) && (j >= l) )
-			j--;
-		if (i <= j){
-			//swap(N[j], N[i]);
-			int temp;
-			temp = N[j];
-			N[j] = N[i];
-			N[i] = temp;
-		}
-		i++; 
-		j--;
-	}
-	return j+1;
-}
-
-int goodpivot(int *N, int i, int j)
-{
-	if ((j-i)<5)
-		return ((i+j)/2);
-	int group = (i-j+1)/5;
-	int beg=i;
-	int end = j;
-	int num, num1, num2, d, swap;
-
-	for (num =0; num<group; num++, beg+=5)
+	void swap(int a[], int l, int r);
+	int findRank(int a[], int i, int j, int r);
+	// ******************************** SELECTION SORT *******************************
+	void sort(int A[],int l,int r)
 	{
-		for (num1=beg; num1<beg+5; num1++)
+ 		int min,x;
+		
+		for(int i=l;i<=r;i++)
+ 		{
+  			min =i;  //index of minimum element
+  			for(int j=i+1;j<=r;j++)
+  			{
+   				if(A[min]>=A[j])
+   				{
+   					min=j;
+   				}	
+  			}
+  			swap(A, min, i);
+
+ 		}
+
+ 		/*for(int in = l; in <= r; in++)
+ 			System.out.print(A[in]+ " ");
+ 		System.out.println("");*/
+
+
+	} 
+
+
+	// ***************************************************************************
+
+	void swap(int a[], int l, int r)
+	{
+		int temp =a[l];
+		a[l] = a[r];
+		a[r] = temp;
+	}
+
+	int goodPivot(int a[], int l, int r)
+	{
+		// Sorting into the groups of 5
+
+		int beg = l;
+		int end = r;
+		int rem = (r-l+1)%5;
+		int groups;
+		if(rem == 0)
+			groups = (r-l+1) / 5;
+		else 
+			groups = ((r-l+1) / 5) + 1;
+
+		//System.out.println(groups);
+
+		for(int i = 0; i < groups; i++, beg += 5)
 		{
-			for (num2=beg; num2<(beg+4-num1); num2++)
+			if( i == (groups - 1))
 			{
-				if(N[d] > N[d+1])
+				if(rem == 0)
+					sort(a, beg, beg+4);
+				else
 				{
-					swap = N[num2];
-					N[num2] = N[num2+1];
-					N[num2+1] = swap;
-				}				
+					//System.out.println("I am here!");
+					sort(a, beg, beg+rem-1);
+					//System.out.println("Working fine!");
+				}
+					
+			}
+			else
+			{
+				sort(a, beg, beg+4);
 			}
 		}
+
+		if((r-l+1) <= 5)
+			return ((l+r)/2);
+
+		// Moving the median to its place
+		beg = l;
+		end = r;
+		int start =l;
+		for(int i=0; i< groups; i++, beg += 5)
+		{
+			if(i == (groups - 1))
+			{
+				if(rem == 0)
+					swap(a, start++, beg+2);
+				else
+					swap(a, start++, beg + (rem/2));
+			}
+			else
+				swap(a, start++, beg+2);
+			
+
+		}
+
+		/*for(int i =0; i< a.length; i++)
+			System.out.print(a[i]+ " ");*/
+
+		//System.out.println((l+groups-1) + " " + (groups/2));
+
+		return findRank(a, l, l+groups-1, groups/2);
+
 	}
 
-	if((j-i+1)<=5)
-		return ((i+j)/2);
-
-	beg = i;
-	end = j;
-	int start = i;
-	for (num =0; num<group; num++, beg+=5)
-	{
-		swap = N[start];
-		N[start] = N[beg+2];
-		N[beg+2] = swap;
-		start++;
-	}
-	return rank(N,i,i+group-1,group/2);
-}
 
 
-int rank(int *N, int i, int j, int r){
-	//logic to pick a good pivot
-	int pivot;
-	//printf("%d\t",i);
-	//printf("%d\t",j);
-	if (i=j)
+
+	int Partition(int a[], int low, int high, int p)
 	{
-		//printf("Debug\n");
-		return N[i];
+		
+		int l = low, r = high;
+		int pivot = a[p];
+		//System.out.println(pivot);
+		while( l <= r)
+		{
+			while((l<= high) && (a[l] <= pivot))
+				l++;
+			while((r >= low) && (a[r] > pivot))
+				r--;
+			if(l < r)
+			{
+				swap(a, l, r);
+				l++;
+				r--;
+			}
+					
+		}
+		return r;
 	}
-	int p = goodpivot (N, i, j);
-	pivot = N[p];
-	int k = partition (N, i, j, pivot);
-	if (r == j-k+1)
+
+	int findRank(int a[], int i, int j, int r)
 	{
-		return N[k];
+		/*for(int w=i;w<=j;w++)
+			System.out.print(a[w]+" ");
+		System.out.println("");*/
+		/*int x, c;
+		if((j-i+1) <= 5)
+		{
+			for(int in1 = i; in1  <= j; in1++)
+			{
+				x = a[0];
+				c = 0;
+				for(int in2 = i; in2 <= j; in2++)
+				{
+					if(a[in2] > x)
+						c++;
+				}
+				if(r == (c+1))
+					return x;
+			}
+		}*/
+			
+		if(i == j)
+		{
+			//System.out.println("Return statement");
+			return i;
+		}
+			
+			
+		int p = goodPivot(a, i, j);
+			 
+		int k = Partition(a, i, j, p);
+
+		/*for(int in = i; in <= j; in++)
+ 			System.out.print(a[in]+ " ");
+ 		System.out.println("");*/
+
+		if(r == (j-k+1))
+			return k;
+		else if(r < (j-k+1))
+			return findRank(a, k+1, j, r);
+		else
+			return findRank(a, i, k, r-j+k);
+				
+			
+			
+		
 	}
-	else if (r < j-k+1)
-	{
-		rank(N, k+1, j, r);
-	}
-	else
-	{
-		rank(N, i, k, (r-j+k));
-	}
-}
+
 
 int main()
 {
@@ -112,14 +193,15 @@ int main()
 	int N[10] = {4, 3, 26, 122, 56, 202, 900, 25, 78, 90};
 	int l=10;
 
-	first = 0;
-	last = l - 1;
+	int first = 0;
+	int last = l - 1;
 
 	int r, num;
 	printf ("enter the rank=");
 	scanf("%d", &r);
 
-	num = rank(N, first, last, r);
-	printf ("The number is: %d\n", num);
+	num = findRank(N, first, last, r);
+	printf ("The number is: %d\n", N[num]);
+	//fclose(fp);
 	return 0;
 }

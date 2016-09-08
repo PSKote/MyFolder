@@ -1,9 +1,6 @@
 /*Find the smallest k elements in a array. Read 2k elements. Find the medians and then apply partition. The value more than k is not the candidate, then overwrite the next k elements from k to 2k again find median and repeat */
 
 #include<stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <math.h>
 
 int partition(int *N, int l, int r, int p){
 	int i=l, j=r;

@@ -82,5 +82,7 @@ int main()
 
 	num = rank(N, first, last, r);
 	printf ("The number is: %d", num);
+	fclose(fp);
 	return 0;
+	
 }
